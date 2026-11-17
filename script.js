@@ -167,6 +167,51 @@ const translations = {
     servicesCtaTitle: "Looking for the Right Land Opportunity?",
     servicesCtaText: "Talk to our team today and tell us what you are looking for.",
     servicesCtaButton: "Contact Our Team"
+
+    servicesCtaButton: "Contact Our Team",
+
+// CONTACT PAGE
+
+contactHeroLabel: "LET'S CONNECT",
+contactHeroTitle: "Every great opportunity<br><em>begins with a conversation.</em>",
+contactHeroText: "Have a question about land, surveying or investment? Our team is ready to hear from you.",
+contactHeroButton: "Get in touch ↓",
+
+contactSectionLabel: "CONTACT KAMBELE",
+contactSectionTitle: "Let's discuss<br><em>your next move.</em>",
+contactSectionText: "Looking for residential plots, commercial land or surveying services? We would be happy to hear from you.",
+
+contactPhoneLabel: "PHONE / WHATSAPP",
+contactEmailLabel: "EMAIL ADDRESS",
+contactLocationLabel: "LOCATION",
+contactLocation: "Arusha, Tanzania",
+contactSocialText: "WE LOOK FORWARD TO HEARING FROM YOU",
+
+formLabel: "SEND AN ENQUIRY",
+formTitle: "How can we help you?",
+formDescription: "Fill in the details below and our team will be happy to assist you.",
+formName: "Full Name",
+formPhone: "Phone Number",
+formEmail: "Email Address",
+formSubject: "Which service are you interested in?",
+formMessage: "Your Message",
+formSelectOption: "Select a service",
+formOption1: "Residential Plots",
+formOption2: "Commercial Plots",
+formOption3: "Land Surveying",
+formOption4: "Land Investment",
+formOption5: "Other Services",
+formSubmit: "Send Enquiry via WhatsApp",
+formNote: "Your message will be prepared and opened through WhatsApp.",
+
+formNamePlaceholder: "Your full name",
+formPhonePlaceholder: "+255...",
+formEmailPlaceholder: "you@example.com",
+formMessagePlaceholder: "Tell us more about what you need...",
+
+contactBottomLabel: "YOUR NEXT OPPORTUNITY",
+contactBottomTitle: "The right conversation<br><em>can open new possibilities.</em>",
+contactBottomButton: "Talk to our team ↗"
   },
 
   sw: {
@@ -337,6 +382,51 @@ const translations = {
     servicesCtaTitle: "Unatafuta Fursa Sahihi ya Ardhi?",
     servicesCtaText: "Wasiliana na timu yetu leo na utueleze unachokitafuta.",
     servicesCtaButton: "Wasiliana na Timu Yetu"
+
+    servicesCtaButton: "Wasiliana na Timu Yetu",
+
+// UKURASA WA MAWASILIANO
+
+contactHeroLabel: "TUWASILIANE",
+contactHeroTitle: "Kila fursa nzuri<br><em>huanza kwa mazungumzo.</em>",
+contactHeroText: "Una swali kuhusu ardhi, upimaji au uwekezaji? Timu yetu iko tayari kukusikiliza.",
+contactHeroButton: "Wasiliana nasi ↓",
+
+contactSectionLabel: "WASILIANA NA KAMBELE",
+contactSectionTitle: "Tuzungumzie<br><em>hatua yako inayofuata.</em>",
+contactSectionText: "Unatafuta viwanja vya makazi, ardhi ya biashara au huduma za upimaji? Tutafurahi kusikia kutoka kwako.",
+
+contactPhoneLabel: "SIMU / WHATSAPP",
+contactEmailLabel: "BARUA PEPE",
+contactLocationLabel: "MAHALI",
+contactLocation: "Arusha, Tanzania",
+contactSocialText: "TUNASUBIRI KUSIKIA KUTOKA KWAKO",
+
+formLabel: "TUMA MAULIZO",
+formTitle: "Tunawezaje kukusaidia?",
+formDescription: "Jaza taarifa hapa chini na timu yetu itafurahi kukusaidia.",
+formName: "Jina Kamili",
+formPhone: "Namba ya Simu",
+formEmail: "Barua Pepe",
+formSubject: "Unavutiwa na huduma gani?",
+formMessage: "Ujumbe Wako",
+formSelectOption: "Chagua huduma",
+formOption1: "Viwanja vya Makazi",
+formOption2: "Viwanja vya Biashara",
+formOption3: "Upimaji wa Ardhi",
+formOption4: "Uwekezaji wa Ardhi",
+formOption5: "Huduma Nyingine",
+formSubmit: "Tuma Maulizo kupitia WhatsApp",
+formNote: "Ujumbe wako utaandaliwa na kufunguliwa kupitia WhatsApp.",
+
+formNamePlaceholder: "Jina lako kamili",
+formPhonePlaceholder: "+255...",
+formEmailPlaceholder: "barua@mfano.com",
+formMessagePlaceholder: "Tuambie zaidi kuhusu unachohitaji...",
+
+contactBottomLabel: "FURSA YAKO INAYOFUATA",
+contactBottomTitle: "Mazungumzo sahihi<br><em>yanaweza kufungua fursa mpya.</em>",
+contactBottomButton: "Zungumza na timu yetu ↗"
   }
 };
 
