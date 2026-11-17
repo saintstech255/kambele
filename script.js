@@ -61,37 +61,37 @@ const translations = {
 
     // ABOUT PAGE
 
-aboutHeroLabel: "WHO WE ARE",
-aboutHeroTitle: "Building possibilities<br><em>on solid ground.</em>",
-aboutHeroText: "Discover Kambele Investment, our purpose and our approach to land and property opportunities.",
+    aboutHeroLabel: "WHO WE ARE",
+    aboutHeroTitle: "Building possibilities<br><em>on solid ground.</em>",
+    aboutHeroText: "Discover Kambele Investment, our purpose and our approach to land and property opportunities.",
 
-aboutIntroLabel: "ABOUT KAMBELE",
-aboutIntroTitle: "More than land.<br><em>A foundation for tomorrow.</em>",
-aboutIntroText: "Kambele Investment is an Arusha-based business focused on residential and commercial plots, land surveying and land investment opportunities. We aim to help individuals and businesses make informed decisions as they pursue their property goals.",
+    aboutIntroLabel: "ABOUT KAMBELE",
+    aboutIntroTitle: "More than land.<br><em>A foundation for tomorrow.</em>",
+    aboutIntroText: "Kambele Investment is an Arusha-based business focused on residential and commercial plots, land surveying and land investment opportunities. We aim to help individuals and businesses make informed decisions as they pursue their property goals.",
 
-aboutVisionLabel: "OUR VISION",
-aboutVisionTitle: "A future built on<br><em>informed opportunities.</em>",
-aboutVisionText: "To become a trusted name in land and property investment by helping people recognise and explore opportunities for a better future.",
+    aboutVisionLabel: "OUR VISION",
+    aboutVisionTitle: "A future built on<br><em>informed opportunities.</em>",
+    aboutVisionText: "To become a trusted name in land and property investment by helping people recognise and explore opportunities for a better future.",
 
-aboutMissionLabel: "OUR MISSION",
-aboutMissionTitle: "Making land opportunities<br><em>clearer and accessible.</em>",
-aboutMissionText: "To connect individuals and businesses with land opportunities and related services through clear communication, customer guidance and a commitment to understanding their needs.",
+    aboutMissionLabel: "OUR MISSION",
+    aboutMissionTitle: "Making land opportunities<br><em>clearer and accessible.</em>",
+    aboutMissionText: "To connect individuals and businesses with land opportunities and related services through clear communication, customer guidance and a commitment to understanding their needs.",
 
-aboutValuesLabel: "WHAT GUIDES US",
-aboutValuesTitle: "Principles behind<br><em>every conversation.</em>",
-valueIntegrity: "Integrity",
-valueIntegrityText: "We value honesty and clear communication.",
-valueCustomer: "Customer Focus",
-valueCustomerText: "We listen and seek to understand each client's needs.",
-valueTransparency: "Transparency",
-valueTransparencyText: "We encourage informed decisions through clear information.",
-valueCommitment: "Commitment",
-valueCommitmentText: "We take every enquiry seriously and aim to provide helpful guidance.",
+    aboutValuesLabel: "WHAT GUIDES US",
+    aboutValuesTitle: "Principles behind<br><em>every conversation.</em>",
+    valueIntegrity: "Integrity",
+    valueIntegrityText: "We value honesty and clear communication.",
+    valueCustomer: "Customer Focus",
+    valueCustomerText: "We listen and seek to understand each client's needs.",
+    valueTransparency: "Transparency",
+    valueTransparencyText: "We encourage informed decisions through clear information.",
+    valueCommitment: "Commitment",
+    valueCommitmentText: "We take every enquiry seriously and aim to provide helpful guidance.",
 
-aboutCtaTitle: "Let's build your next<br><em>opportunity together.</em>",
-aboutCtaText: "Talk to our team about your land and property plans.",
-aboutCtaButton: "Talk to our team ↗",
-    
+    aboutCtaTitle: "Let's build your next<br><em>opportunity together.</em>",
+    aboutCtaText: "Talk to our team about your land and property plans.",
+    aboutCtaButton: "Talk to our team ↗",
+
     // PROJECTS PAGE
 
     projectHeroLabel: "LAND • LOCATION • OPPORTUNITY",
@@ -117,10 +117,10 @@ aboutCtaButton: "Talk to our team ↗",
     projectCtaLabel: "YOUR NEXT STEP STARTS HERE",
     projectCtaTitle: "Looking for the right<br><em>piece of land?</em>",
     projectCtaText: "Tell us what you are looking for. Our team is ready to hear from you.",
-    projectCtaButton: "Talk to our team ↗"
+    projectCtaButton: "Talk to our team ↗",
 
-    
     // SERVICES PAGE
+
     servicesHeroLabel: "WHAT WE DO",
     servicesHeroTitle: "Services Built Around Your Land Investment Goals",
     servicesHeroText: "From finding the right land to professional surveying, we help you make informed property decisions.",
@@ -166,8 +166,7 @@ aboutCtaButton: "Talk to our team ↗",
     servicesCtaLabel: "LET'S START A CONVERSATION",
     servicesCtaTitle: "Looking for the Right Land Opportunity?",
     servicesCtaText: "Talk to our team today and tell us what you are looking for.",
-    servicesCtaButton: "Contact Our Team",
-
+    servicesCtaButton: "Contact Our Team"
   },
 
   sw: {
@@ -232,37 +231,37 @@ aboutCtaButton: "Talk to our team ↗",
 
     // UKURASA WA KUHUSU SISI
 
-aboutHeroLabel: "SISI NI NANI",
-aboutHeroTitle: "Tunajenga fursa<br><em>juu ya msingi imara.</em>",
-aboutHeroText: "Fahamu Kambele Investment, malengo yetu na namna tunavyoshughulikia fursa za ardhi na mali.",
+    aboutHeroLabel: "SISI NI NANI",
+    aboutHeroTitle: "Tunajenga fursa<br><em>juu ya msingi imara.</em>",
+    aboutHeroText: "Fahamu Kambele Investment, malengo yetu na namna tunavyoshughulikia fursa za ardhi na mali.",
 
-aboutIntroLabel: "KUHUSU KAMBELE",
-aboutIntroTitle: "Zaidi ya ardhi.<br><em>Msingi wa kesho bora.</em>",
-aboutIntroText: "Kambele Investment ni biashara yenye makao yake Arusha inayojihusisha na viwanja vya makazi na biashara, upimaji wa ardhi na fursa za uwekezaji wa ardhi. Tunakusudia kuwasaidia watu binafsi na wafanyabiashara kufanya maamuzi sahihi wanapofuatilia malengo yao ya kumiliki mali.",
+    aboutIntroLabel: "KUHUSU KAMBELE",
+    aboutIntroTitle: "Zaidi ya ardhi.<br><em>Msingi wa kesho bora.</em>",
+    aboutIntroText: "Kambele Investment ni biashara yenye makao yake Arusha inayojihusisha na viwanja vya makazi na biashara, upimaji wa ardhi na fursa za uwekezaji wa ardhi. Tunakusudia kuwasaidia watu binafsi na wafanyabiashara kufanya maamuzi sahihi wanapofuatilia malengo yao ya kumiliki mali.",
 
-aboutVisionLabel: "DIRA YETU",
-aboutVisionTitle: "Mustakabali unaojengwa<br><em>kwa fursa sahihi.</em>",
-aboutVisionText: "Kuwa jina linaloaminika katika uwekezaji wa ardhi na mali kwa kuwasaidia watu kutambua na kuchunguza fursa za kujenga maisha bora ya baadaye.",
+    aboutVisionLabel: "DIRA YETU",
+    aboutVisionTitle: "Mustakabali unaojengwa<br><em>kwa fursa sahihi.</em>",
+    aboutVisionText: "Kuwa jina linaloaminika katika uwekezaji wa ardhi na mali kwa kuwasaidia watu kutambua na kuchunguza fursa za kujenga maisha bora ya baadaye.",
 
-aboutMissionLabel: "DHAMIRA YETU",
-aboutMissionTitle: "Kuweka fursa za ardhi<br><em>wazi na kufikika.</em>",
-aboutMissionText: "Kuunganisha watu binafsi na wafanyabiashara na fursa za ardhi pamoja na huduma zinazohusiana nayo kupitia mawasiliano yaliyo wazi, mwongozo kwa wateja na kujitahidi kuelewa mahitaji yao.",
+    aboutMissionLabel: "DHAMIRA YETU",
+    aboutMissionTitle: "Kuweka fursa za ardhi<br><em>wazi na kufikika.</em>",
+    aboutMissionText: "Kuunganisha watu binafsi na wafanyabiashara na fursa za ardhi pamoja na huduma zinazohusiana nayo kupitia mawasiliano yaliyo wazi, mwongozo kwa wateja na kujitahidi kuelewa mahitaji yao.",
 
-aboutValuesLabel: "MISINGI YETU",
-aboutValuesTitle: "Kanuni zinazoongoza<br><em>kila tunachofanya.</em>",
-valueIntegrity: "Uadilifu",
-valueIntegrityText: "Tunathamini ukweli na mawasiliano yaliyo wazi.",
-valueCustomer: "Kujali Wateja",
-valueCustomerText: "Tunasikiliza na kujitahidi kuelewa mahitaji ya kila mteja.",
-valueTransparency: "Uwazi",
-valueTransparencyText: "Tunasisitiza maamuzi sahihi kupitia taarifa zilizo wazi.",
-valueCommitment: "Uwajibikaji",
-valueCommitmentText: "Tunachukulia kila swali kwa uzito na kujitahidi kutoa mwongozo wenye manufaa.",
+    aboutValuesLabel: "MISINGI YETU",
+    aboutValuesTitle: "Kanuni zinazoongoza<br><em>kila tunachofanya.</em>",
+    valueIntegrity: "Uadilifu",
+    valueIntegrityText: "Tunathamini ukweli na mawasiliano yaliyo wazi.",
+    valueCustomer: "Kujali Wateja",
+    valueCustomerText: "Tunasikiliza na kujitahidi kuelewa mahitaji ya kila mteja.",
+    valueTransparency: "Uwazi",
+    valueTransparencyText: "Tunasisitiza maamuzi sahihi kupitia taarifa zilizo wazi.",
+    valueCommitment: "Uwajibikaji",
+    valueCommitmentText: "Tunachukulia kila swali kwa uzito na kujitahidi kutoa mwongozo wenye manufaa.",
 
-aboutCtaTitle: "Tujenge fursa yako<br><em>inayofuata pamoja.</em>",
-aboutCtaText: "Zungumza na timu yetu kuhusu mipango yako ya ardhi na mali.",
-aboutCtaButton: "Wasiliana na timu yetu ↗",   
-    
+    aboutCtaTitle: "Tujenge fursa yako<br><em>inayofuata pamoja.</em>",
+    aboutCtaText: "Zungumza na timu yetu kuhusu mipango yako ya ardhi na mali.",
+    aboutCtaButton: "Wasiliana na timu yetu ↗",
+
     // UKURASA WA MIRADI
 
     projectHeroLabel: "ARDHI • ENEO • FURSA",
@@ -288,9 +287,10 @@ aboutCtaButton: "Wasiliana na timu yetu ↗",
     projectCtaLabel: "HATUA YAKO INAYOFUATA INAANZIA HAPA",
     projectCtaTitle: "Unatafuta kiwanja<br><em>kinachokufaa?</em>",
     projectCtaText: "Tuambie unatafuta nini. Timu yetu iko tayari kukusikiliza.",
-    projectCtaButton: "Wasiliana na timu yetu ↗"
+    projectCtaButton: "Wasiliana na timu yetu ↗",
 
     // SERVICES PAGE
+
     servicesHeroLabel: "HUDUMA ZETU",
     servicesHeroTitle: "Huduma Zinazokidhi Malengo Yako ya Uwekezaji wa Ardhi",
     servicesHeroText: "Kuanzia kupata eneo sahihi hadi huduma za kitaalamu za upimaji, tunakusaidia kufanya maamuzi sahihi kuhusu ardhi na mali.",
@@ -336,8 +336,7 @@ aboutCtaButton: "Wasiliana na timu yetu ↗",
     servicesCtaLabel: "TUANZE MAZUNGUMZO",
     servicesCtaTitle: "Unatafuta Fursa Sahihi ya Ardhi?",
     servicesCtaText: "Wasiliana na timu yetu leo na utueleze unachokitafuta.",
-    servicesCtaButton: "Wasiliana na Timu Yetu",
-
+    servicesCtaButton: "Wasiliana na Timu Yetu"
   }
 };
 
@@ -438,3 +437,4 @@ if (yearElement) {
 // APPLY SAVED LANGUAGE
 
 setLanguage(currentLanguage);
+
