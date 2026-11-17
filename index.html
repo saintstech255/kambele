@@ -1,186 +1,394 @@
 <!DOCTYPE html>
-<html lang="sw">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Kambele Investment | Viwanja vilivyopimwa Arusha &amp; Kilimanjaro</title>
-<meta name="description" content="Miliki kiwanja chako Arusha na Kilimanjaro. Lipa kidogo kidogo bila riba kwa miezi 6 hadi 8+. Tembelea site bure.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kambele Investment - Land sales, land surveying and land investment opportunities in Tanzania.">
+  <title>Kambele Investment | Land & Property Investment</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header class="nav" id="nav">
-  <div class="wrap nav__in">
-    <a href="#nyumbani" class="brand"><span class="brand__mark">K</span>Kambele Investment</a>
-    <button class="nav__toggle" id="navToggle" aria-label="Fungua menyu" aria-expanded="false"><span></span><span></span></button>
-    <nav class="nav__links" id="navLinks">
-      <a href="#nyumbani">Nyumbani</a>
-      <a href="#viwanja">Viwanja &amp; Bei</a>
-      <a href="#kuhusu">Kuhusu Sisi</a>
-      <a href="#mawasiliano">Mawasiliano</a>
-      <a href="tel:+255766816581" class="btn btn--gold btn--sm">Piga Simu</a>
-    </nav>
+<div class="announcement">
+  <span data-i18n="announcement">Your trusted partner in land and property investment</span>
+  <span>Arusha, Tanzania</span>
+</div>
+
+<header class="site-header">
+
+  <a class="brand" href="#home">
+    <span class="brand-mark">K<span>.</span></span>
+    <span class="brand-name">KAMBELE
+      <small>INVESTMENT</small>
+    </span>
+  </a>
+
+  <button class="menu-toggle" aria-label="Open navigation">☰</button>
+
+  <nav class="nav">
+    <a href="#home" data-i18n="navHome">Home</a>
+    <a href="#about" data-i18n="navAbout">About</a>
+    <a href="#services" data-i18n="navServices">Services</a>
+    <a href="#projects" data-i18n="navProjects">Projects</a>
+    <a href="#contact" data-i18n="navContact">Contact</a>
+  </nav>
+
+  <div class="header-actions">
+    <button class="lang-switch" id="languageToggle">SW</button>
+    <a class="button button-gold header-cta"
+       href="https://wa.me/255762875055"
+       target="_blank"
+       data-i18n="headerCta">Talk to us</a>
   </div>
+
 </header>
 
 <main>
-<section class="hero" id="nyumbani">
-  <div class="wrap hero__in">
-    <p class="hero__tag">Viwanja vilivyopimwa &middot; Arusha &amp; Kilimanjaro</p>
-    <h1>Miliki Kiwanja Chako Arusha &amp; Kilimanjaro kwa Malipo Rahisi.</h1>
-    <p class="hero__sub">Lipa kidogo kidogo bila riba kwa miezi 6 hadi 8+. Tunakupeleka kutembelea site bure.</p>
-    <div class="hero__cta">
-      <a href="#viwanja" class="btn btn--gold">Tazama Viwanja &amp; Bei</a>
-      <a id="heroWa" href="#" target="_blank" rel="noopener" class="btn btn--ghost">Panga Kutembelea Site</a>
+
+<!-- HERO SECTION -->
+
+<section class="hero" id="home">
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+
+    <p class="eyebrow">
+      <span></span>
+      LAND • TRUST • OPPORTUNITY
+    </p>
+
+    <h1 data-i18n="heroTitle">
+      Build your future<br>
+      <em>on solid ground.</em>
+    </h1>
+
+    <p class="hero-copy" data-i18n="heroCopy">
+      Explore land opportunities, professional surveying services
+      and smarter ways to invest in property.
+    </p>
+
+    <div class="hero-buttons">
+      <a class="button button-gold" href="#services"
+         data-i18n="exploreServices">Explore our services</a>
+
+      <a class="button button-outline" href="#contact"
+         data-i18n="contactUs">Contact us</a>
     </div>
-    <ul class="hero__facts">
-      <li><strong>Kuanzia 800,000</strong><span>TZS, Kikatiti</span></li>
-      <li><strong>Miezi 8+</strong><span>kulipa bila riba</span></li>
-      <li><strong>Kila wiki</strong><span>safari ya site bure</span></li>
-    </ul>
+
+    <div class="hero-note">
+      <span class="note-line"></span>
+      A foundation for tomorrow, today.
+    </div>
+
   </div>
+
+  <div class="hero-side-label">
+    KAMBELE INVESTMENT — ARUSHA, TANZANIA
+  </div>
+
 </section>
 
-<section class="sec" id="faida">
-  <div class="wrap">
-    <h2 class="sec__title reveal">Kwa nini Kambele Investment?<small>Why choose us</small></h2>
-    <div class="values">
-      <article class="card value reveal">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18M7 15h3"/></svg>
-        <h3>Lipa Kidogo Kidogo</h3>
-        <p>Malipo ya awamu hadi miezi 8+ bila riba. Unalipa bei ya kiwanja tu.</p>
-      </article>
-      <article class="card value reveal">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.800 12 21 12 21z"/><circle cx="12" cy="9.500" r="2.500"/></svg>
-        <h3>Maeneo ya Kimkakati</h3>
-        <p>Viwanja vya makazi na biashara katika maeneo yanayokua ya Arusha na Kilimanjaro.</p>
-      </article>
-      <article class="card value reveal">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 13l2-5a2 2 0 0 1 2-1h10a2 2 0 0 1 2 1l2 5v5h-3v-2H6v2H3z"/><circle cx="7.500" cy="13.500" r="1"/><circle cx="16.500" cy="13.500" r="1"/></svg>
-        <h3>Safari ya Site Bure</h3>
-        <p>Tunakupeleka kuona kiwanja chako kila wiki, kuanzia ofisi yetu Mianzini, Arusha.</p>
-      </article>
+<!-- ABOUT SECTION -->
+
+<section class="intro section-pad" id="about">
+
+  <div class="section-kicker">01 / WHO WE ARE</div>
+
+  <div class="intro-grid">
+
+    <div>
+      <p class="gold-label">A PARTNER IN PROPERTY</p>
+
+      <h2 data-i18n="introTitle">
+        Land is more than a place.<br>
+        <em>It is a possibility.</em>
+      </h2>
     </div>
+
+    <div class="intro-text">
+
+      <p data-i18n="introCopy">
+        Kambele Investment is an Arusha-based business focused on
+        land sales, land surveying and land investment opportunities.
+        We help individuals and businesses take informed steps
+        towards their property goals.
+      </p>
+
+      <a class="text-link" href="#contact">
+        Speak to our team ↗
+      </a>
+
+    </div>
+
   </div>
+
+  <div class="values-strip">
+
+    <div>
+      <strong>01</strong>
+      <span>Trust-led service</span>
+    </div>
+
+    <div>
+      <strong>02</strong>
+      <span>Land expertise</span>
+    </div>
+
+    <div>
+      <strong>03</strong>
+      <span>Long-term thinking</span>
+    </div>
+
+  </div>
+
 </section>
 
-<section class="sec sec--alt" id="viwanja">
-  <div class="wrap">
-    <h2 class="sec__title reveal">Viwanja na Bei<small>Plots &amp; prices</small></h2>
-    <div class="filters reveal" role="group" aria-label="Chuja viwanja">
-      <div class="chips" id="regionFilter">
-        <button class="chip is-on" data-v="all">Zote</button>
-        <button class="chip" data-v="Arusha">Arusha</button>
-        <button class="chip" data-v="Kilimanjaro">Kilimanjaro</button>
+<!-- SERVICES -->
+
+<section class="services section-pad" id="services">
+
+  <div class="section-heading">
+
+    <div>
+      <div class="section-kicker">02 / WHAT WE DO</div>
+      <p class="gold-label">OUR SERVICES</p>
+
+      <h2 data-i18n="servicesTitle">
+        Opportunities built<br>
+        <em>around your goals.</em>
+      </h2>
+    </div>
+
+    <p class="heading-aside">
+      From finding the right plot to understanding your land,
+      we support your next move.
+    </p>
+
+  </div>
+
+  <div class="service-grid">
+
+    <article class="service-card">
+      <span class="service-number">01</span>
+      <div class="service-icon">⌂</div>
+      <h3>Residential Plots</h3>
+      <p>Land opportunities for building a home and planning for the future.</p>
+      <a href="#contact">↗</a>
+    </article>
+
+    <article class="service-card">
+      <span class="service-number">02</span>
+      <div class="service-icon">▦</div>
+      <h3>Commercial Plots</h3>
+      <p>Explore land options for business, development and commercial use.</p>
+      <a href="#contact">↗</a>
+    </article>
+
+    <article class="service-card">
+      <span class="service-number">03</span>
+      <div class="service-icon">⌖</div>
+      <h3>Land Surveying</h3>
+      <p>Land surveying and plot measurement support for informed decisions.</p>
+      <a href="#contact">↗</a>
+    </article>
+
+    <article class="service-card">
+      <span class="service-number">04</span>
+      <div class="service-icon">↗</div>
+      <h3>Land Investment</h3>
+      <p>Discuss land investment opportunities and your long-term property plans.</p>
+      <a href="#contact">↗</a>
+    </article>
+
+  </div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section class="feature section-pad" id="projects">
+
+  <div class="feature-image">
+    <div class="image-caption">
+      <span>THE RIGHT LAND. THE RIGHT NEXT STEP.</span>
+      <b>ARUSHA, TZ</b>
+    </div>
+  </div>
+
+  <div class="feature-content">
+
+    <div class="section-kicker">03 / LAND OPPORTUNITIES</div>
+
+    <p class="gold-label">EXPLORE WITH CONFIDENCE</p>
+
+    <h2>
+      Your next chapter<br>
+      <em>starts with a location.</em>
+    </h2>
+
+    <p>
+      Looking for residential or commercial land?
+      Tell us what you have in mind. Our team can guide you
+      through the opportunities currently available.
+    </p>
+
+    <a class="button button-gold"
+       href="https://wa.me/255762875055"
+       target="_blank">
+       Ask about available plots
+    </a>
+
+    <p class="small-note">
+      Availability, locations, plot sizes and prices are confirmed directly with our team.
+    </p>
+
+  </div>
+
+</section>
+
+<!-- WHY CHOOSE US -->
+
+<section class="why section-pad">
+
+  <div class="section-kicker">04 / WHY KAMBELE</div>
+
+  <div class="why-grid">
+
+    <div>
+      <p class="gold-label">A THOUGHTFUL APPROACH</p>
+
+      <h2>
+        Make your next<br>
+        <em>move with clarity.</em>
+      </h2>
+    </div>
+
+    <div class="why-list">
+
+      <div>
+        <span>01</span>
+        <section>
+          <h3>Guidance that starts with you</h3>
+          <p>We take time to understand your needs before discussing suitable options.</p>
+        </section>
       </div>
-      <div class="chips" id="priceFilter">
-        <button class="chip is-on" data-v="all">Bei zote</button>
-        <button class="chip" data-v="low">Chini ya Mil 3</button>
-        <button class="chip" data-v="mid">Mil 3 - Mil 10</button>
-        <button class="chip" data-v="high">Zaidi ya Mil 10</button>
+
+      <div>
+        <span>02</span>
+        <section>
+          <h3>Services in one place</h3>
+          <p>Connect with us about land sales, surveying and investment enquiries.</p>
+        </section>
       </div>
+
+      <div>
+        <span>03</span>
+        <section>
+          <h3>Local presence in Arusha</h3>
+          <p>Speak with our team about land opportunities in and around the region.</p>
+        </section>
+      </div>
+
     </div>
-    <p class="count" id="count" aria-live="polite"></p>
-    <div class="grid" id="grid"></div>
+
   </div>
+
 </section>
 
-<section class="sec" id="kikokotoo">
-  <div class="wrap calc">
-    <div class="calc__intro reveal">
-      <h2 class="sec__title">Kikokotoo cha Malipo<small>Installment calculator</small></h2>
-      <p>Chagua bei ya kiwanja na muda wa kulipa uone kiasi cha kulipa kwa mwezi. Hakuna riba.</p>
-    </div>
-    <div class="card calc__box reveal">
-      <label for="price" class="calc__lbl">Bei ya kiwanja: <strong id="priceOut"></strong></label>
-      <input type="range" id="price" min="800000" max="17000000" step="100000" value="3500000">
-      <div class="calc__range"><span>TZS 800,000</span><span>TZS 17,000,000</span></div>
-      <p class="calc__lbl">Muda wa kulipa</p>
-      <div class="chips" id="months">
-        <button class="chip" data-m="3">Miezi 3</button>
-        <button class="chip" data-m="6">Miezi 6</button>
-        <button class="chip is-on" data-m="8">Miezi 8</button>
-      </div>
-      <div class="calc__res">
-        <span>Kiasi cha kulipa kwa mwezi</span>
-        <strong id="monthly"></strong>
-      </div>
-      <a id="calcWa" href="#" target="_blank" rel="noopener" class="btn btn--wa">Tuma hesabu hii WhatsApp</a>
-    </div>
+<!-- CALL TO ACTION -->
+
+<section class="cta-band">
+
+  <div>
+    <p class="gold-label">LET'S TALK ABOUT YOUR PLANS</p>
+
+    <h2>
+      A better future begins<br>
+      with a conversation.
+    </h2>
   </div>
+
+  <a class="button button-dark"
+     href="https://wa.me/255762875055"
+     target="_blank">
+     Chat on WhatsApp ↗
+  </a>
+
 </section>
 
-<section class="sec sec--green" id="kuhusu">
-  <div class="wrap about">
-    <div class="reveal">
-      <h2 class="sec__title">Kuhusu Sisi<small>About us</small></h2>
-      <p>Kambele Investments Limited ni kampuni ya udalali wa ardhi na viwanja yenye ofisi Mianzini, Arusha. Tunauza viwanja vilivyopimwa katika mikoa ya Arusha na Kilimanjaro, kwa bei zilizo wazi na malipo ya awamu bila riba.</p>
-      <p>Kabla ya kununua, unatembelea site bila gharama, unaona kiwanja chako mwenyewe, kisha unaamua.</p>
-    </div>
-    <ul class="steps reveal">
-      <li><b>Chagua kiwanja</b> kwenye orodha au tuulize WhatsApp.</li>
-      <li><b>Tembelea site bure</b> pamoja na timu yetu.</li>
-      <li><b>Lipa kidogo kidogo</b> kwa miezi 6 hadi 8+.</li>
-    </ul>
-  </div>
-</section>
-
-<section class="sec" id="mawasiliano">
-  <div class="wrap contact">
-    <div class="reveal">
-      <h2 class="sec__title">Mawasiliano<small>Contact us</small></h2>
-      <ul class="clist">
-        <li><span>Ofisi</span>Mianzini, Arusha, Tanzania</li>
-        <li><span>Simu / WhatsApp</span><a href="tel:+255766816581">+255 766 816 581</a> &middot; <a href="https://wa.me/255766816581" target="_blank" rel="noopener">WhatsApp</a></li>
-        <li><span>Simu ya pili</span><a href="tel:+255743650778">+255 743 650 778</a></li>
-        <!-- EMAIL: badilisha anwani hapa na kwenye footer kama itabadilika -->
-        <li><span>Barua pepe</span><a href="mailto:info@kambeleinvestment.co.tz">info@kambeleinvestment.co.tz</a></li>
-        <li><span>Instagram</span><a href="https://www.instagram.com/kambele_investment__viwanja" target="_blank" rel="noopener">@kambele_investment__viwanja</a></li>
-        <!-- FACEBOOK: weka link kamili ya page ukiipata -->
-        <li><span>Facebook</span><a href="https://www.facebook.com/search/top?q=Kambele%20Investments%20Viwanja" target="_blank" rel="noopener">Kambele Investments Viwanja</a></li>
-      </ul>
-    </div>
-    <form class="card form reveal" id="inquiry" novalidate>
-      <h3>Tuma Swali Lako</h3>
-      <label>Jina<input name="name" autocomplete="name" required></label>
-      <label>Namba ya simu<input name="phone" type="tel" autocomplete="tel" required></label>
-      <label>Eneo unalopenda
-        <select name="loc"><option>Sijachagua</option></select>
-      </label>
-      <label>Ujumbe<textarea name="msg" rows="3"></textarea></label>
-      <p class="form__err" id="formErr" role="alert"></p>
-      <button class="btn btn--wa" type="submit">Tuma kupitia WhatsApp</button>
-    </form>
-  </div>
-</section>
 </main>
 
-<footer class="foot">
-  <div class="wrap">
-    <p><strong>Kambele Investment</strong> &middot; Kambele Investments Limited, Mianzini, Arusha</p>
-    <p>&copy; <span id="yr"></span> Haki zote zimehifadhiwa.</p>
+<!-- FOOTER -->
+
+<footer id="contact">
+
+  <div class="footer-main">
+
+    <div class="footer-brand">
+
+      <a class="brand brand-light" href="#home">
+        <span class="brand-mark">K<span>.</span></span>
+        <span class="brand-name">
+          KAMBELE
+          <small>INVESTMENT</small>
+        </span>
+      </a>
+
+      <p>
+        Land, surveying and investment opportunities.
+        Let's build on solid ground.
+      </p>
+
+    </div>
+
+    <div class="footer-col">
+      <h4>QUICK LINKS</h4>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>CONTACT</h4>
+      <a href="https://wa.me/255762875055">+255 762 875 055</a>
+      <a href="mailto:kambeleinvestment1@gmail.com">
+        kambeleinvestment1@gmail.com
+      </a>
+      <span>Arusha, Tanzania</span>
+    </div>
+
+    <div class="footer-col">
+      <h4>SEND AN ENQUIRY</h4>
+      <p>Have a question about land or surveying?</p>
+      <a class="footer-whatsapp"
+         href="https://wa.me/255762875055"
+         target="_blank">
+         Message us on WhatsApp ↗
+      </a>
+    </div>
+
   </div>
+
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> Kambele Investment. All rights reserved.</span>
+    <span>ARUSHA • TANZANIA</span>
+  </div>
+
 </footer>
 
-<a href="https://wa.me/255766816581" id="waFloat" class="wa-float" target="_blank" rel="noopener" aria-label="Ongea nasi WhatsApp">
-  <span class="wa-float__tip">Ongea nasi WhatsApp</span>
-  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.700 13.600L3 21l4.500-1.200A9 9 0 1 0 12 3z"/><path d="M9 8.500c0 3.500 3 6.500 6.500 6.500l1-1.500-2-1-1 .8c-1-.4-2-1.400-2.400-2.400l.8-1-1-2z"/></svg>
-</a>
+<a class="floating-whatsapp"
+   href="https://wa.me/255762875055"
+   target="_blank"
+   aria-label="WhatsApp">✆</a>
 
-<div class="modal" id="modal" aria-hidden="true">
-  <div class="modal__bg" data-close></div>
-  <div class="modal__box" role="dialog" aria-modal="true" aria-labelledby="mTitle">
-    <button class="modal__x" data-close aria-label="Funga">&times;</button>
-    <span class="tag" id="mTag"></span>
-    <h3 id="mTitle"></h3>
-    <dl id="mList"></dl>
-    <a id="mWa" href="#" target="_blank" rel="noopener" class="btn btn--wa">Uliza / Nunua WhatsApp</a>
-  </div>
-</div>
+<script src="script.js"></script>
 
-<script src="js/main.js"></script>
 </body>
 </html>
