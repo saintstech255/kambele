@@ -946,3 +946,348 @@ footer {
     height: 250px;
   }
 }
+
+/* =========================================
+   ABOUT US PAGE - KAMBELE INVESTMENT
+========================================= */
+
+/* ABOUT HERO */
+
+.about-hero {
+  min-height: 570px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background:
+    linear-gradient(90deg, rgba(8, 8, 8, 0.94), rgba(8, 8, 8, 0.48)),
+    url("images/about-hero.jpg") center/cover no-repeat;
+}
+
+.about-hero .projects-hero-content {
+  max-width: 850px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.about-hero h1 {
+  max-width: 780px;
+}
+
+.about-hero .projects-hero-content > p:not(.gold-label) {
+  max-width: 620px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+
+/* ABOUT INTRODUCTION */
+
+.about-intro {
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+.about-intro-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 90px;
+  align-items: center;
+  margin-top: 55px;
+}
+
+.about-intro-heading h2 {
+  max-width: 650px;
+}
+
+.about-intro-copy p {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #777;
+  margin-bottom: 28px;
+}
+
+.about-intro-copy .text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #b89550;
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 1px solid #b89550;
+  padding-bottom: 8px;
+  transition: 0.3s ease;
+}
+
+.about-intro-copy .text-link:hover {
+  gap: 16px;
+  color: #d6b66d;
+}
+
+
+/* VISION AND MISSION */
+
+.about-purpose {
+  background: #0b0b0b;
+  padding: 100px 0;
+}
+
+.about-purpose-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.about-purpose-card {
+  position: relative;
+  padding: 65px 55px;
+  min-height: 420px;
+  border: 1px solid rgba(198, 160, 83, 0.25);
+  background: linear-gradient(
+    145deg,
+    #171717,
+    #0d0d0d
+  );
+  transition: 0.4s ease;
+}
+
+.about-purpose-card:hover {
+  transform: translateY(-8px);
+  border-color: #b89550;
+}
+
+.about-number {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: #777;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.about-icon {
+  width: 58px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #b89550;
+  color: #c6a053;
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+
+.about-purpose-card .gold-label {
+  color: #c6a053;
+  letter-spacing: 3px;
+  font-size: 11px;
+  margin-bottom: 18px;
+}
+
+.about-purpose-card h2 {
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-size: clamp(27px, 3vw, 38px);
+  line-height: 1.3;
+  margin-bottom: 25px;
+}
+
+.about-purpose-card h2 em {
+  color: #c6a053;
+  font-weight: 500;
+}
+
+.about-purpose-card > p:last-child {
+  color: #aaa;
+  line-height: 1.9;
+  max-width: 480px;
+  font-size: 15px;
+}
+
+
+/* CORE VALUES */
+
+.about-values {
+  padding: 110px 0;
+}
+
+.about-values-heading {
+  margin: 45px 0 60px;
+}
+
+.about-values-heading h2 {
+  max-width: 650px;
+}
+
+.about-values-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid #e5e0d6;
+  border-bottom: 1px solid #e5e0d6;
+}
+
+.about-value-card {
+  position: relative;
+  padding: 45px 25px;
+  min-height: 260px;
+  border-right: 1px solid #e5e0d6;
+  transition: 0.35s ease;
+}
+
+.about-value-card:last-child {
+  border-right: none;
+}
+
+.about-value-card:hover {
+  background: #f8f5ef;
+}
+
+.value-index {
+  color: #b89550;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.value-symbol {
+  color: #b89550;
+  font-size: 34px;
+  margin: 28px 0 20px;
+}
+
+.about-value-card h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 21px;
+  color: #171717;
+  margin-bottom: 14px;
+}
+
+.about-value-card p {
+  color: #777;
+  line-height: 1.8;
+  font-size: 14px;
+}
+
+
+/* ABOUT CTA */
+
+.about-cta {
+  background:
+    linear-gradient(rgba(8, 8, 8, 0.88), rgba(8, 8, 8, 0.88)),
+    url("images/about-cta.jpg") center/cover no-repeat;
+}
+
+
+/* =========================================
+   RESPONSIVE DESIGN
+========================================= */
+
+@media (max-width: 1000px) {
+
+  .about-intro-grid {
+    gap: 45px;
+  }
+
+  .about-purpose-card {
+    padding: 55px 35px;
+  }
+
+  .about-values-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-value-card:nth-child(2) {
+    border-right: none;
+  }
+
+  .about-value-card:nth-child(1),
+  .about-value-card:nth-child(2) {
+    border-bottom: 1px solid #e5e0d6;
+  }
+
+}
+
+
+@media (max-width: 720px) {
+
+  .about-hero {
+    min-height: 490px;
+    background-position: center;
+  }
+
+  .about-hero .projects-hero-content {
+    padding: 65px 22px;
+  }
+
+  .about-intro {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+
+  .about-intro-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    margin-top: 35px;
+  }
+
+  .about-purpose {
+    padding: 70px 0;
+  }
+
+  .about-purpose-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .about-purpose-card {
+    min-height: auto;
+    padding: 55px 30px;
+  }
+
+  .about-values {
+    padding: 75px 0;
+  }
+
+  .about-values-heading {
+    margin: 35px 0 40px;
+  }
+
+  .about-values-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about-value-card {
+    padding: 30px 18px;
+    min-height: 240px;
+  }
+
+  .about-value-card h3 {
+    font-size: 18px;
+  }
+
+}
+
+
+@media (max-width: 390px) {
+
+  .about-hero {
+    min-height: 450px;
+  }
+
+  .about-purpose-card {
+    padding: 50px 23px;
+  }
+
+  .about-values-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-value-card {
+    border-right: none;
+    border-bottom: 1px solid #e5e0d6;
+    min-height: auto;
+  }
+
+  .about-value-card:last-child {
+    border-bottom: none;
+  }
+
+}
