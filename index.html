@@ -3,11 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <meta name="description" content="Kambele Investment - Land sales, land surveying and land investment opportunities in Tanzania.">
+
   <title>Kambele Investment | Land & Property Investment</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
@@ -15,36 +18,56 @@
 
 <body>
 
+<!-- ANNOUNCEMENT BAR -->
+
 <div class="announcement">
-  <span data-i18n="announcement">Your trusted partner in land and property investment</span>
+  <span data-i18n="announcement">
+    Your trusted partner in land and property investment
+  </span>
   <span>Arusha, Tanzania</span>
 </div>
 
+<!-- HEADER -->
+
 <header class="site-header">
 
-  <a class="brand" href="#home">
+  <a class="brand" href="index.html">
     <span class="brand-mark">K<span>.</span></span>
-    <span class="brand-name">KAMBELE
+
+    <span class="brand-name">
+      KAMBELE
       <small>INVESTMENT</small>
     </span>
   </a>
 
-  <button class="menu-toggle" aria-label="Open navigation">☰</button>
+  <button class="menu-toggle"
+          aria-label="Open navigation"
+          aria-expanded="false">
+    ☰
+  </button>
 
   <nav class="nav">
-    <a href="#home" data-i18n="navHome">Home</a>
+    <a href="index.html" data-i18n="navHome">Home</a>
     <a href="#about" data-i18n="navAbout">About</a>
     <a href="#services" data-i18n="navServices">Services</a>
-    <a href="#projects" data-i18n="navProjects">Projects</a>
+    <a href="projects.html" data-i18n="navProjects">Projects</a>
     <a href="#contact" data-i18n="navContact">Contact</a>
   </nav>
 
   <div class="header-actions">
-    <button class="lang-switch" id="languageToggle">SW</button>
+
+    <button class="lang-switch" id="languageToggle">
+      SW
+    </button>
+
     <a class="button button-gold header-cta"
        href="https://wa.me/255762875055"
        target="_blank"
-       data-i18n="headerCta">Talk to us</a>
+       rel="noopener"
+       data-i18n="headerCta">
+      Talk to us
+    </a>
+
   </div>
 
 </header>
@@ -75,11 +98,19 @@
     </p>
 
     <div class="hero-buttons">
-      <a class="button button-gold" href="#services"
-         data-i18n="exploreServices">Explore our services</a>
 
-      <a class="button button-outline" href="#contact"
-         data-i18n="contactUs">Contact us</a>
+      <a class="button button-gold"
+         href="#services"
+         data-i18n="exploreServices">
+        Explore our services
+      </a>
+
+      <a class="button button-outline"
+         href="#contact"
+         data-i18n="contactUs">
+        Contact us
+      </a>
+
     </div>
 
     <div class="hero-note">
@@ -99,17 +130,23 @@
 
 <section class="intro section-pad" id="about">
 
-  <div class="section-kicker">01 / WHO WE ARE</div>
+  <div class="section-kicker">
+    01 / WHO WE ARE
+  </div>
 
   <div class="intro-grid">
 
     <div>
-      <p class="gold-label">A PARTNER IN PROPERTY</p>
+
+      <p class="gold-label">
+        A PARTNER IN PROPERTY
+      </p>
 
       <h2 data-i18n="introTitle">
         Land is more than a place.<br>
         <em>It is a possibility.</em>
       </h2>
+
     </div>
 
     <div class="intro-text">
@@ -121,7 +158,8 @@
         towards their property goals.
       </p>
 
-      <a class="text-link" href="#contact">
+      <a class="text-link"
+         href="#contact">
         Speak to our team ↗
       </a>
 
@@ -150,20 +188,27 @@
 
 </section>
 
-<!-- SERVICES -->
+<!-- SERVICES SECTION -->
 
 <section class="services section-pad" id="services">
 
   <div class="section-heading">
 
     <div>
-      <div class="section-kicker">02 / WHAT WE DO</div>
-      <p class="gold-label">OUR SERVICES</p>
+
+      <div class="section-kicker">
+        02 / WHAT WE DO
+      </div>
+
+      <p class="gold-label">
+        OUR SERVICES
+      </p>
 
       <h2 data-i18n="servicesTitle">
         Opportunities built<br>
         <em>around your goals.</em>
       </h2>
+
     </div>
 
     <p class="heading-aside">
@@ -176,73 +221,122 @@
   <div class="service-grid">
 
     <article class="service-card">
+
       <span class="service-number">01</span>
+
       <div class="service-icon">⌂</div>
-      <h3>Residential Plots</h3>
-      <p>Land opportunities for building a home and planning for the future.</p>
-      <a href="#contact">↗</a>
+
+      <h3 data-i18n="service1Title">
+        Residential Plots
+      </h3>
+
+      <p data-i18n="service1Copy">
+        Land opportunities for building a home and planning for the future.
+      </p>
+
+      <a href="#contact" aria-label="Ask about residential plots">↗</a>
+
     </article>
 
     <article class="service-card">
+
       <span class="service-number">02</span>
+
       <div class="service-icon">▦</div>
-      <h3>Commercial Plots</h3>
-      <p>Explore land options for business, development and commercial use.</p>
-      <a href="#contact">↗</a>
+
+      <h3 data-i18n="service2Title">
+        Commercial Plots
+      </h3>
+
+      <p data-i18n="service2Copy">
+        Explore land options for business, development and commercial use.
+      </p>
+
+      <a href="#contact" aria-label="Ask about commercial plots">↗</a>
+
     </article>
 
     <article class="service-card">
+
       <span class="service-number">03</span>
+
       <div class="service-icon">⌖</div>
-      <h3>Land Surveying</h3>
-      <p>Land surveying and plot measurement support for informed decisions.</p>
-      <a href="#contact">↗</a>
+
+      <h3 data-i18n="service3Title">
+        Land Surveying
+      </h3>
+
+      <p data-i18n="service3Copy">
+        Land surveying and plot measurement support for informed decisions.
+      </p>
+
+      <a href="#contact" aria-label="Ask about land surveying">↗</a>
+
     </article>
 
     <article class="service-card">
+
       <span class="service-number">04</span>
+
       <div class="service-icon">↗</div>
-      <h3>Land Investment</h3>
-      <p>Discuss land investment opportunities and your long-term property plans.</p>
-      <a href="#contact">↗</a>
+
+      <h3 data-i18n="service4Title">
+        Land Investment
+      </h3>
+
+      <p data-i18n="service4Copy">
+        Discuss land investment opportunities and your long-term property plans.
+      </p>
+
+      <a href="#contact" aria-label="Ask about land investment">↗</a>
+
     </article>
 
   </div>
 
 </section>
 
-<!-- PROJECTS -->
+<!-- PROJECTS INTRODUCTION -->
 
 <section class="feature section-pad" id="projects">
 
   <div class="feature-image">
+
     <div class="image-caption">
+
       <span>THE RIGHT LAND. THE RIGHT NEXT STEP.</span>
+
       <b>ARUSHA, TZ</b>
+
     </div>
+
   </div>
 
   <div class="feature-content">
 
-    <div class="section-kicker">03 / LAND OPPORTUNITIES</div>
+    <div class="section-kicker">
+      03 / LAND OPPORTUNITIES
+    </div>
 
-    <p class="gold-label">EXPLORE WITH CONFIDENCE</p>
+    <p class="gold-label">
+      EXPLORE OUR PROJECT LOCATIONS
+    </p>
 
-    <h2>
+    <h2 data-i18n="featureTitle">
       Your next chapter<br>
       <em>starts with a location.</em>
     </h2>
 
-    <p>
+    <p data-i18n="featureCopy">
       Looking for residential or commercial land?
       Tell us what you have in mind. Our team can guide you
       through the opportunities currently available.
     </p>
 
     <a class="button button-gold"
-       href="https://wa.me/255762875055"
-       target="_blank">
-       Ask about available plots
+       href="projects.html"
+       data-i18n="projectsButton">
+      Explore all projects
     </a>
 
     <p class="small-note">
@@ -257,43 +351,79 @@
 
 <section class="why section-pad">
 
-  <div class="section-kicker">04 / WHY KAMBELE</div>
+  <div class="section-kicker">
+    04 / WHY KAMBELE
+  </div>
 
   <div class="why-grid">
 
     <div>
-      <p class="gold-label">A THOUGHTFUL APPROACH</p>
 
-      <h2>
+      <p class="gold-label">
+        A THOUGHTFUL APPROACH
+      </p>
+
+      <h2 data-i18n="whyTitle">
         Make your next<br>
         <em>move with clarity.</em>
       </h2>
+
     </div>
 
     <div class="why-list">
 
       <div>
+
         <span>01</span>
+
         <section>
-          <h3>Guidance that starts with you</h3>
-          <p>We take time to understand your needs before discussing suitable options.</p>
+
+          <h3 data-i18n="why1Title">
+            Guidance that starts with you
+          </h3>
+
+          <p data-i18n="why1Copy">
+            We take time to understand your needs before discussing suitable options.
+          </p>
+
         </section>
+
       </div>
 
       <div>
+
         <span>02</span>
+
         <section>
-          <h3>Services in one place</h3>
-          <p>Connect with us about land sales, surveying and investment enquiries.</p>
+
+          <h3 data-i18n="why2Title">
+            Services in one place
+          </h3>
+
+          <p data-i18n="why2Copy">
+            Connect with us about land sales, surveying and investment enquiries.
+          </p>
+
         </section>
+
       </div>
 
       <div>
+
         <span>03</span>
+
         <section>
-          <h3>Local presence in Arusha</h3>
-          <p>Speak with our team about land opportunities in and around the region.</p>
+
+          <h3 data-i18n="why3Title">
+            Local presence in Arusha
+          </h3>
+
+          <p data-i18n="why3Copy">
+            Speak with our team about land opportunities in and around the region.
+          </p>
+
         </section>
+
       </div>
 
     </div>
@@ -307,18 +437,24 @@
 <section class="cta-band">
 
   <div>
-    <p class="gold-label">LET'S TALK ABOUT YOUR PLANS</p>
 
-    <h2>
+    <p class="gold-label" data-i18n="ctaLabel">
+      LET'S TALK ABOUT YOUR PLANS
+    </p>
+
+    <h2 data-i18n="ctaTitle">
       A better future begins<br>
       with a conversation.
     </h2>
+
   </div>
 
   <a class="button button-dark"
      href="https://wa.me/255762875055"
-     target="_blank">
-     Chat on WhatsApp ↗
+     target="_blank"
+     rel="noopener"
+     data-i18n="ctaButton">
+    Chat on WhatsApp ↗
   </a>
 
 </section>
@@ -333,15 +469,18 @@
 
     <div class="footer-brand">
 
-      <a class="brand brand-light" href="#home">
+      <a class="brand brand-light" href="index.html">
+
         <span class="brand-mark">K<span>.</span></span>
+
         <span class="brand-name">
           KAMBELE
           <small>INVESTMENT</small>
         </span>
+
       </a>
 
-      <p>
+      <p data-i18n="footerDescription">
         Land, surveying and investment opportunities.
         Let's build on solid ground.
       </p>
@@ -349,46 +488,83 @@
     </div>
 
     <div class="footer-col">
-      <h4>QUICK LINKS</h4>
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#projects">Projects</a>
+
+      <h4 data-i18n="quickLinks">
+        QUICK LINKS
+      </h4>
+
+      <a href="#about" data-i18n="navAbout">About</a>
+      <a href="#services" data-i18n="navServices">Services</a>
+      <a href="projects.html" data-i18n="navProjects">Projects</a>
+
     </div>
 
     <div class="footer-col">
-      <h4>CONTACT</h4>
-      <a href="https://wa.me/255762875055">+255 762 875 055</a>
+
+      <h4 data-i18n="contactHeading">
+        CONTACT
+      </h4>
+
+      <a href="https://wa.me/255762875055">
+        +255 762 875 055
+      </a>
+
       <a href="mailto:kambeleinvestment1@gmail.com">
         kambeleinvestment1@gmail.com
       </a>
+
       <span>Arusha, Tanzania</span>
+
     </div>
 
     <div class="footer-col">
-      <h4>SEND AN ENQUIRY</h4>
-      <p>Have a question about land or surveying?</p>
+
+      <h4 data-i18n="enquiryHeading">
+        SEND AN ENQUIRY
+      </h4>
+
+      <p data-i18n="enquiryCopy">
+        Have a question about land or surveying?
+      </p>
+
       <a class="footer-whatsapp"
          href="https://wa.me/255762875055"
-         target="_blank">
-         Message us on WhatsApp ↗
+         target="_blank"
+         rel="noopener"
+         data-i18n="footerWhatsApp">
+        Message us on WhatsApp ↗
       </a>
+
     </div>
 
   </div>
 
   <div class="footer-bottom">
-    <span>© <span id="year"></span> Kambele Investment. All rights reserved.</span>
+
+    <span>
+      © <span id="year"></span>
+      Kambele Investment.
+      <span data-i18n="copyright">All rights reserved.</span>
+    </span>
+
     <span>ARUSHA • TANZANIA</span>
+
   </div>
 
 </footer>
 
+<!-- FLOATING WHATSAPP -->
+
 <a class="floating-whatsapp"
    href="https://wa.me/255762875055"
    target="_blank"
-   aria-label="WhatsApp">✆</a>
+   rel="noopener"
+   aria-label="WhatsApp">
+  ✆
+</a>
 
 <script src="script.js"></script>
 
 </body>
 </html>
+
