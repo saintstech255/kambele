@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kambele Investment | Viwanja vilivyopimwa Arusha &amp; Kilimanjaro</title>
+<meta name="description" content="Miliki kiwanja chako Arusha na Kilimanjaro. Lipa kidogo kidogo bila riba kwa miezi 6 hadi 8+. Tembelea site bure.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="wrap nav__in">
+    <a href="#nyumbani" class="brand"><span class="brand__mark">K</span>Kambele Investment</a>
+    <button class="nav__toggle" id="navToggle" aria-label="Fungua menyu" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav__links" id="navLinks">
+      <a href="#nyumbani">Nyumbani</a>
+      <a href="#viwanja">Viwanja &amp; Bei</a>
+      <a href="#kuhusu">Kuhusu Sisi</a>
+      <a href="#mawasiliano">Mawasiliano</a>
+      <a href="tel:+255766816581" class="btn btn--gold btn--sm">Piga Simu</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="nyumbani">
+  <div class="wrap hero__in">
+    <p class="hero__tag">Viwanja vilivyopimwa &middot; Arusha &amp; Kilimanjaro</p>
+    <h1>Miliki Kiwanja Chako Arusha &amp; Kilimanjaro kwa Malipo Rahisi.</h1>
+    <p class="hero__sub">Lipa kidogo kidogo bila riba kwa miezi 6 hadi 8+. Tunakupeleka kutembelea site bure.</p>
+    <div class="hero__cta">
+      <a href="#viwanja" class="btn btn--gold">Tazama Viwanja &amp; Bei</a>
+      <a id="heroWa" href="#" target="_blank" rel="noopener" class="btn btn--ghost">Panga Kutembelea Site</a>
+    </div>
+    <ul class="hero__facts">
+      <li><strong>Kuanzia 800,000</strong><span>TZS, Kikatiti</span></li>
+      <li><strong>Miezi 8+</strong><span>kulipa bila riba</span></li>
+      <li><strong>Kila wiki</strong><span>safari ya site bure</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="faida">
+  <div class="wrap">
+    <h2 class="sec__title reveal">Kwa nini Kambele Investment?<small>Why choose us</small></h2>
+    <div class="values">
+      <article class="card value reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18M7 15h3"/></svg>
+        <h3>Lipa Kidogo Kidogo</h3>
+        <p>Malipo ya awamu hadi miezi 8+ bila riba. Unalipa bei ya kiwanja tu.</p>
+      </article>
+      <article class="card value reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.800 12 21 12 21z"/><circle cx="12" cy="9.500" r="2.500"/></svg>
+        <h3>Maeneo ya Kimkakati</h3>
+        <p>Viwanja vya makazi na biashara katika maeneo yanayokua ya Arusha na Kilimanjaro.</p>
+      </article>
+      <article class="card value reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 13l2-5a2 2 0 0 1 2-1h10a2 2 0 0 1 2 1l2 5v5h-3v-2H6v2H3z"/><circle cx="7.500" cy="13.500" r="1"/><circle cx="16.500" cy="13.500" r="1"/></svg>
+        <h3>Safari ya Site Bure</h3>
+        <p>Tunakupeleka kuona kiwanja chako kila wiki, kuanzia ofisi yetu Mianzini, Arusha.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--alt" id="viwanja">
+  <div class="wrap">
+    <h2 class="sec__title reveal">Viwanja na Bei<small>Plots &amp; prices</small></h2>
+    <div class="filters reveal" role="group" aria-label="Chuja viwanja">
+      <div class="chips" id="regionFilter">
+        <button class="chip is-on" data-v="all">Zote</button>
+        <button class="chip" data-v="Arusha">Arusha</button>
+        <button class="chip" data-v="Kilimanjaro">Kilimanjaro</button>
+      </div>
+      <div class="chips" id="priceFilter">
+        <button class="chip is-on" data-v="all">Bei zote</button>
+        <button class="chip" data-v="low">Chini ya Mil 3</button>
+        <button class="chip" data-v="mid">Mil 3 - Mil 10</button>
+        <button class="chip" data-v="high">Zaidi ya Mil 10</button>
+      </div>
+    </div>
+    <p class="count" id="count" aria-live="polite"></p>
+    <div class="grid" id="grid"></div>
+  </div>
+</section>
+
+<section class="sec" id="kikokotoo">
+  <div class="wrap calc">
+    <div class="calc__intro reveal">
+      <h2 class="sec__title">Kikokotoo cha Malipo<small>Installment calculator</small></h2>
+      <p>Chagua bei ya kiwanja na muda wa kulipa uone kiasi cha kulipa kwa mwezi. Hakuna riba.</p>
+    </div>
+    <div class="card calc__box reveal">
+      <label for="price" class="calc__lbl">Bei ya kiwanja: <strong id="priceOut"></strong></label>
+      <input type="range" id="price" min="800000" max="17000000" step="100000" value="3500000">
+      <div class="calc__range"><span>TZS 800,000</span><span>TZS 17,000,000</span></div>
+      <p class="calc__lbl">Muda wa kulipa</p>
+      <div class="chips" id="months">
+        <button class="chip" data-m="3">Miezi 3</button>
+        <button class="chip" data-m="6">Miezi 6</button>
+        <button class="chip is-on" data-m="8">Miezi 8</button>
+      </div>
+      <div class="calc__res">
+        <span>Kiasi cha kulipa kwa mwezi</span>
+        <strong id="monthly"></strong>
+      </div>
+      <a id="calcWa" href="#" target="_blank" rel="noopener" class="btn btn--wa">Tuma hesabu hii WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--green" id="kuhusu">
+  <div class="wrap about">
+    <div class="reveal">
+      <h2 class="sec__title">Kuhusu Sisi<small>About us</small></h2>
+      <p>Kambele Investments Limited ni kampuni ya udalali wa ardhi na viwanja yenye ofisi Mianzini, Arusha. Tunauza viwanja vilivyopimwa katika mikoa ya Arusha na Kilimanjaro, kwa bei zilizo wazi na malipo ya awamu bila riba.</p>
+      <p>Kabla ya kununua, unatembelea site bila gharama, unaona kiwanja chako mwenyewe, kisha unaamua.</p>
+    </div>
+    <ul class="steps reveal">
+      <li><b>Chagua kiwanja</b> kwenye orodha au tuulize WhatsApp.</li>
+      <li><b>Tembelea site bure</b> pamoja na timu yetu.</li>
+      <li><b>Lipa kidogo kidogo</b> kwa miezi 6 hadi 8+.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="mawasiliano">
+  <div class="wrap contact">
+    <div class="reveal">
+      <h2 class="sec__title">Mawasiliano<small>Contact us</small></h2>
+      <ul class="clist">
+        <li><span>Ofisi</span>Mianzini, Arusha, Tanzania</li>
+        <li><span>Simu / WhatsApp</span><a href="tel:+255766816581">+255 766 816 581</a> &middot; <a href="https://wa.me/255766816581" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li><span>Simu ya pili</span><a href="tel:+255743650778">+255 743 650 778</a></li>
+        <!-- EMAIL: badilisha anwani hapa na kwenye footer kama itabadilika -->
+        <li><span>Barua pepe</span><a href="mailto:info@kambeleinvestment.co.tz">info@kambeleinvestment.co.tz</a></li>
+        <li><span>Instagram</span><a href="https://www.instagram.com/kambele_investment__viwanja" target="_blank" rel="noopener">@kambele_investment__viwanja</a></li>
+        <!-- FACEBOOK: weka link kamili ya page ukiipata -->
+        <li><span>Facebook</span><a href="https://www.facebook.com/search/top?q=Kambele%20Investments%20Viwanja" target="_blank" rel="noopener">Kambele Investments Viwanja</a></li>
+      </ul>
+    </div>
+    <form class="card form reveal" id="inquiry" novalidate>
+      <h3>Tuma Swali Lako</h3>
+      <label>Jina<input name="name" autocomplete="name" required></label>
+      <label>Namba ya simu<input name="phone" type="tel" autocomplete="tel" required></label>
+      <label>Eneo unalopenda
+        <select name="loc"><option>Sijachagua</option></select>
+      </label>
+      <label>Ujumbe<textarea name="msg" rows="3"></textarea></label>
+      <p class="form__err" id="formErr" role="alert"></p>
+      <button class="btn btn--wa" type="submit">Tuma kupitia WhatsApp</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p><strong>Kambele Investment</strong> &middot; Kambele Investments Limited, Mianzini, Arusha</p>
+    <p>&copy; <span id="yr"></span> Haki zote zimehifadhiwa.</p>
+  </div>
+</footer>
+
+<a href="https://wa.me/255766816581" id="waFloat" class="wa-float" target="_blank" rel="noopener" aria-label="Ongea nasi WhatsApp">
+  <span class="wa-float__tip">Ongea nasi WhatsApp</span>
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.700 13.600L3 21l4.500-1.200A9 9 0 1 0 12 3z"/><path d="M9 8.500c0 3.500 3 6.500 6.500 6.500l1-1.500-2-1-1 .8c-1-.4-2-1.400-2.400-2.400l.8-1-1-2z"/></svg>
+</a>
+
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal__bg" data-close></div>
+  <div class="modal__box" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+    <button class="modal__x" data-close aria-label="Funga">&times;</button>
+    <span class="tag" id="mTag"></span>
+    <h3 id="mTitle"></h3>
+    <dl id="mList"></dl>
+    <a id="mWa" href="#" target="_blank" rel="noopener" class="btn btn--wa">Uliza / Nunua WhatsApp</a>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
