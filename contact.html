@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contact | Kambele Investment</title>
+  <meta name="description" content="Contact Kambele Investment in Arusha for residential plots, commercial land, surveying and land investment enquiries.">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ANNOUNCEMENT -->
+  <div class="announcement">
+    <p data-i18n="announcement">Your trusted partner in land and property investment</p>
+  </div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+
+    <a href="index.html" class="brand">
+      <span class="brand-mark">K</span>
+      <span class="brand-name">KAMBELE <strong>INVESTMENT</strong></span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav class="nav">
+      <a href="index.html" data-i18n="navHome">Home</a>
+      <a href="about.html" data-i18n="navAbout">About</a>
+      <a href="services.html" data-i18n="navServices">Services</a>
+      <a href="projects.html" data-i18n="navProjects">Projects</a>
+      <a href="contact.html" class="active" data-i18n="navContact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button id="languageToggle" class="language-toggle">SW</button>
+      <a href="https://wa.me/255762875055" class="header-cta" data-i18n="headerCta">Talk to us</a>
+    </div>
+
+  </header>
+
+
+  <!-- CONTACT HERO -->
+  <main>
+
+    <section class="contact-hero">
+
+      <div class="contact-hero-overlay"></div>
+
+      <div class="contact-hero-content">
+        <span class="gold-label" data-i18n="contactHeroLabel">LET'S CONNECT</span>
+
+        <h1 data-i18n="contactHeroTitle">
+          Every great opportunity<br>
+          <em>starts with a conversation.</em>
+        </h1>
+
+        <p data-i18n="contactHeroText">
+          Have a question about land, surveying or investment? Our team is ready to hear from you.
+        </p>
+
+        <a href="#contact-details" class="gold-button" data-i18n="contactHeroButton">
+          Get in touch ↓
+        </a>
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section" id="contact-details">
+
+      <div class="contact-container">
+
+        <!-- LEFT INFORMATION -->
+        <div class="contact-information">
+
+          <span class="gold-label" data-i18n="contactSectionLabel">
+            CONTACT KAMBELE
+          </span>
+
+          <h2 data-i18n="contactSectionTitle">
+            Let's discuss<br>
+            <em>your next move.</em>
+          </h2>
+
+          <p class="contact-description" data-i18n="contactSectionText">
+            Whether you are looking for residential plots, commercial land or surveying services, we would be glad to hear from you.
+          </p>
+
+
+          <div class="contact-info-list">
+
+            <div class="contact-info-item">
+              <div class="contact-icon">☎</div>
+              <div>
+                <span data-i18n="contactPhoneLabel">PHONE / WHATSAPP</span>
+                <a href="https://wa.me/255762875055">+255 762 875 055</a>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-icon">✉</div>
+              <div>
+                <span data-i18n="contactEmailLabel">EMAIL ADDRESS</span>
+                <a href="mailto:kambeleinvestment1@gmail.com">
+                  kambeleinvestment1@gmail.com
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-icon">⌖</div>
+              <div>
+                <span data-i18n="contactLocationLabel">LOCATION</span>
+                <p data-i18n="contactLocation">Arusha, Tanzania</p>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="contact-social">
+            <span data-i18n="contactSocialText">WE LOOK FORWARD TO HEARING FROM YOU</span>
+            <a href="https://wa.me/255762875055" target="_blank" rel="noopener">
+              WhatsApp ↗
+            </a>
+          </div>
+
+        </div>
+
+
+        <!-- FLOATING FORM CARD -->
+        <div class="contact-form-card">
+
+          <div class="form-heading">
+            <span class="gold-label" data-i18n="formLabel">SEND AN ENQUIRY</span>
+
+            <h3 data-i18n="formTitle">How can we help you?</h3>
+
+            <p data-i18n="formDescription">
+              Fill in the details below and our team will be happy to assist you.
+            </p>
+          </div>
+
+
+          <form id="contactForm">
+
+            <div class="form-row">
+
+              <div class="form-group">
+                <label for="contactName" data-i18n="formName">Full Name</label>
+                <input
+                  type="text"
+                  id="contactName"
+                  name="name"
+                  placeholder="Your full name"
+                  data-i18n-placeholder="formNamePlaceholder"
+                  required
+                >
+              </div>
+
+              <div class="form-group">
+                <label for="contactPhone" data-i18n="formPhone">Phone Number</label>
+                <input
+                  type="tel"
+                  id="contactPhone"
+                  name="phone"
+                  placeholder="+255..."
+                  data-i18n-placeholder="formPhonePlaceholder"
+                  required
+                >
+              </div>
+
+            </div>
+
+
+            <div class="form-group">
+              <label for="contactEmail" data-i18n="formEmail">Email Address</label>
+              <input
+                type="email"
+                id="contactEmail"
+                name="email"
+                placeholder="your@email.com"
+                data-i18n-placeholder="formEmailPlaceholder"
+              >
+            </div>
+
+
+            <div class="form-group">
+              <label for="contactSubject" data-i18n="formSubject">What are you interested in?</label>
+
+              <select id="contactSubject" name="subject" required>
+                <option value="" data-i18n="formSelectOption">Select a service</option>
+                <option value="Residential Plots" data-i18n="formOption1">Residential Plots</option>
+                <option value="Commercial Plots" data-i18n="formOption2">Commercial Plots</option>
+                <option value="Land Surveying" data-i18n="formOption3">Land Surveying</option>
+                <option value="Land Investment" data-i18n="formOption4">Land Investment</option>
+                <option value="Other Services" data-i18n="formOption5">Other Services</option>
+              </select>
+            </div>
+
+
+            <div class="form-group">
+              <label for="contactMessage" data-i18n="formMessage">Your Message</label>
+
+              <textarea
+                id="contactMessage"
+                name="message"
+                rows="5"
+                placeholder="Tell us more about what you need..."
+                data-i18n-placeholder="formMessagePlaceholder"
+                required
+              ></textarea>
+            </div>
+
+
+            <button type="submit" class="contact-submit">
+              <span data-i18n="formSubmit">Send Enquiry via WhatsApp</span>
+              <span>↗</span>
+            </button>
+
+            <p class="form-note" data-i18n="formNote">
+              Your enquiry will be prepared and sent through WhatsApp.
+            </p>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- BOTTOM CTA -->
+    <section class="contact-bottom-cta">
+
+      <div class="contact-bottom-content">
+        <span class="gold-label" data-i18n="contactBottomLabel">YOUR NEXT OPPORTUNITY</span>
+
+        <h2 data-i18n="contactBottomTitle">
+          The right conversation<br>
+          <em>can open new possibilities.</em>
+        </h2>
+
+        <a href="https://wa.me/255762875055" class="gold-button" data-i18n="contactBottomButton">
+          Chat with our team ↗
+        </a>
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+
+    <div class="footer-main">
+
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <span class="brand-mark">K</span>
+          <span class="brand-name">KAMBELE <strong>INVESTMENT</strong></span>
+        </a>
+
+        <p data-i18n="footerDescription">
+          Land, surveying and investment opportunities. Let's build on solid ground.
+        </p>
+      </div>
+
+
+      <div class="footer-col">
+        <h4 data-i18n="quickLinks">QUICK LINKS</h4>
+        <a href="index.html" data-i18n="navHome">Home</a>
+        <a href="about.html" data-i18n="navAbout">About</a>
+        <a href="services.html" data-i18n="navServices">Services</a>
+        <a href="projects.html" data-i18n="navProjects">Projects</a>
+        <a href="contact.html" data-i18n="navContact">Contact</a>
+      </div>
+
+
+      <div class="footer-col">
+        <h4 data-i18n="contactHeading">CONTACT</h4>
+        <p>Arusha, Tanzania</p>
+        <a href="tel:+255762875055">+255 762 875 055</a>
+        <a href="mailto:kambeleinvestment1@gmail.com">kambeleinvestment1@gmail.com</a>
+        <a href="https://wa.me/255762875055" data-i18n="footerWhatsApp">
+          Message us on WhatsApp ↗
+        </a>
+      </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> KAMBELE INVESTMENT. <span data-i18n="copyright">All rights reserved.</span></p>
+      <p>Arusha, Tanzania</p>
+    </div>
+
+  </footer>
+
+
+  <!-- FLOATING WHATSAPP -->
+  <a href="https://wa.me/255762875055" class="floating-whatsapp" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <span>☏</span>
+  </a>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
