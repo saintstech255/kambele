@@ -22,13 +22,10 @@ const translations = {
 
     service1Title: "Residential Plots",
     service1Copy: "Land opportunities for building a home and planning for the future.",
-
     service2Title: "Commercial Plots",
     service2Copy: "Explore land options for business, development and commercial use.",
-
     service3Title: "Land Surveying",
     service3Copy: "Land surveying and plot measurement support for informed decisions.",
-
     service4Title: "Land Investment",
     service4Copy: "Discuss land investment opportunities and your long-term property plans.",
 
@@ -37,13 +34,10 @@ const translations = {
     projectsButton: "Explore all projects",
 
     whyTitle: "Make your next<br><em>move with clarity.</em>",
-
     why1Title: "Guidance that starts with you",
     why1Copy: "We take time to understand your needs before discussing suitable options.",
-
     why2Title: "Services in one place",
     why2Copy: "Connect with us about land sales, surveying and investment enquiries.",
-
     why3Title: "Local presence in Arusha",
     why3Copy: "Speak with our team about land opportunities in and around the region.",
 
@@ -166,52 +160,50 @@ const translations = {
     servicesCtaLabel: "LET'S START A CONVERSATION",
     servicesCtaTitle: "Looking for the Right Land Opportunity?",
     servicesCtaText: "Talk to our team today and tell us what you are looking for.",
-    servicesCtaButton: "Contact Our Team"
-
     servicesCtaButton: "Contact Our Team",
 
-// CONTACT PAGE
+    // CONTACT PAGE
 
-contactHeroLabel: "LET'S CONNECT",
-contactHeroTitle: "Every great opportunity<br><em>begins with a conversation.</em>",
-contactHeroText: "Have a question about land, surveying or investment? Our team is ready to hear from you.",
-contactHeroButton: "Get in touch ↓",
+    contactHeroLabel: "LET'S CONNECT",
+    contactHeroTitle: "Every great opportunity<br><em>begins with a conversation.</em>",
+    contactHeroText: "Have a question about land, surveying or investment? Our team is ready to hear from you.",
+    contactHeroButton: "Get in touch ↓",
 
-contactSectionLabel: "CONTACT KAMBELE",
-contactSectionTitle: "Let's discuss<br><em>your next move.</em>",
-contactSectionText: "Looking for residential plots, commercial land or surveying services? We would be happy to hear from you.",
+    contactSectionLabel: "CONTACT KAMBELE",
+    contactSectionTitle: "Let's discuss<br><em>your next move.</em>",
+    contactSectionText: "Looking for residential plots, commercial land or surveying services? We would be happy to hear from you.",
 
-contactPhoneLabel: "PHONE / WHATSAPP",
-contactEmailLabel: "EMAIL ADDRESS",
-contactLocationLabel: "LOCATION",
-contactLocation: "Arusha, Tanzania",
-contactSocialText: "WE LOOK FORWARD TO HEARING FROM YOU",
+    contactPhoneLabel: "PHONE / WHATSAPP",
+    contactEmailLabel: "EMAIL ADDRESS",
+    contactLocationLabel: "LOCATION",
+    contactLocation: "Arusha, Tanzania",
+    contactSocialText: "WE LOOK FORWARD TO HEARING FROM YOU",
 
-formLabel: "SEND AN ENQUIRY",
-formTitle: "How can we help you?",
-formDescription: "Fill in the details below and our team will be happy to assist you.",
-formName: "Full Name",
-formPhone: "Phone Number",
-formEmail: "Email Address",
-formSubject: "Which service are you interested in?",
-formMessage: "Your Message",
-formSelectOption: "Select a service",
-formOption1: "Residential Plots",
-formOption2: "Commercial Plots",
-formOption3: "Land Surveying",
-formOption4: "Land Investment",
-formOption5: "Other Services",
-formSubmit: "Send Enquiry via WhatsApp",
-formNote: "Your message will be prepared and opened through WhatsApp.",
+    formLabel: "SEND AN ENQUIRY",
+    formTitle: "How can we help you?",
+    formDescription: "Fill in the details below and our team will be happy to assist you.",
+    formName: "Full Name",
+    formPhone: "Phone Number",
+    formEmail: "Email Address",
+    formSubject: "Which service are you interested in?",
+    formMessage: "Your Message",
+    formSelectOption: "Select a service",
+    formOption1: "Residential Plots",
+    formOption2: "Commercial Plots",
+    formOption3: "Land Surveying",
+    formOption4: "Land Investment",
+    formOption5: "Other Services",
+    formSubmit: "Send Enquiry via WhatsApp",
+    formNote: "Your message will be prepared and opened through WhatsApp.",
 
-formNamePlaceholder: "Your full name",
-formPhonePlaceholder: "+255...",
-formEmailPlaceholder: "you@example.com",
-formMessagePlaceholder: "Tell us more about what you need...",
+    formNamePlaceholder: "Your full name",
+    formPhonePlaceholder: "+255...",
+    formEmailPlaceholder: "you@example.com",
+    formMessagePlaceholder: "Tell us more about what you need...",
 
-contactBottomLabel: "YOUR NEXT OPPORTUNITY",
-contactBottomTitle: "The right conversation<br><em>can open new possibilities.</em>",
-contactBottomButton: "Talk to our team ↗"
+    contactBottomLabel: "YOUR NEXT OPPORTUNITY",
+    contactBottomTitle: "The right conversation<br><em>can open new possibilities.</em>",
+    contactBottomButton: "Talk to our team ↗"
   },
 
   sw: {
@@ -237,13 +229,10 @@ contactBottomButton: "Talk to our team ↗"
 
     service1Title: "Viwanja vya Makazi",
     service1Copy: "Fursa za kupata viwanja kwa ajili ya kujenga makazi na kupanga maisha ya baadaye.",
-
     service2Title: "Viwanja vya Biashara",
     service2Copy: "Gundua viwanja vinavyofaa kwa biashara, maendeleo na matumizi ya kibiashara.",
-
     service3Title: "Upimaji wa Ardhi",
     service3Copy: "Huduma za upimaji wa ardhi na viwanja ili kukusaidia kufanya maamuzi sahihi.",
-
     service4Title: "Uwekezaji wa Ardhi",
     service4Copy: "Wasiliana nasi kuhusu fursa za uwekezaji wa ardhi na mipango yako ya muda mrefu.",
 
@@ -252,13 +241,10 @@ contactBottomButton: "Talk to our team ↗"
     projectsButton: "Angalia miradi yote",
 
     whyTitle: "Fanya hatua yako inayofuata<br><em>kwa uamuzi sahihi.</em>",
-
     why1Title: "Mwongozo unaozingatia mahitaji yako",
     why1Copy: "Tunachukua muda kuelewa mahitaji yako kabla ya kujadili chaguo zinazokufaa.",
-
     why2Title: "Huduma mbalimbali sehemu moja",
     why2Copy: "Wasiliana nasi kuhusu uuzaji wa viwanja, upimaji na masuala ya uwekezaji.",
-
     why3Title: "Uwepo wetu Arusha",
     why3Copy: "Zungumza na timu yetu kuhusu fursa za ardhi ndani na maeneo yanayozunguka Arusha.",
 
@@ -381,52 +367,50 @@ contactBottomButton: "Talk to our team ↗"
     servicesCtaLabel: "TUANZE MAZUNGUMZO",
     servicesCtaTitle: "Unatafuta Fursa Sahihi ya Ardhi?",
     servicesCtaText: "Wasiliana na timu yetu leo na utueleze unachokitafuta.",
-    servicesCtaButton: "Wasiliana na Timu Yetu"
-
     servicesCtaButton: "Wasiliana na Timu Yetu",
 
-// UKURASA WA MAWASILIANO
+    // UKURASA WA MAWASILIANO
 
-contactHeroLabel: "TUWASILIANE",
-contactHeroTitle: "Kila fursa nzuri<br><em>huanza kwa mazungumzo.</em>",
-contactHeroText: "Una swali kuhusu ardhi, upimaji au uwekezaji? Timu yetu iko tayari kukusikiliza.",
-contactHeroButton: "Wasiliana nasi ↓",
+    contactHeroLabel: "TUWASILIANE",
+    contactHeroTitle: "Kila fursa nzuri<br><em>huanza kwa mazungumzo.</em>",
+    contactHeroText: "Una swali kuhusu ardhi, upimaji au uwekezaji? Timu yetu iko tayari kukusikiliza.",
+    contactHeroButton: "Wasiliana nasi ↓",
 
-contactSectionLabel: "WASILIANA NA KAMBELE",
-contactSectionTitle: "Tuzungumzie<br><em>hatua yako inayofuata.</em>",
-contactSectionText: "Unatafuta viwanja vya makazi, ardhi ya biashara au huduma za upimaji? Tutafurahi kusikia kutoka kwako.",
+    contactSectionLabel: "WASILIANA NA KAMBELE",
+    contactSectionTitle: "Tuzungumzie<br><em>hatua yako inayofuata.</em>",
+    contactSectionText: "Unatafuta viwanja vya makazi, ardhi ya biashara au huduma za upimaji? Tutafurahi kusikia kutoka kwako.",
 
-contactPhoneLabel: "SIMU / WHATSAPP",
-contactEmailLabel: "BARUA PEPE",
-contactLocationLabel: "MAHALI",
-contactLocation: "Arusha, Tanzania",
-contactSocialText: "TUNASUBIRI KUSIKIA KUTOKA KWAKO",
+    contactPhoneLabel: "SIMU / WHATSAPP",
+    contactEmailLabel: "BARUA PEPE",
+    contactLocationLabel: "MAHALI",
+    contactLocation: "Arusha, Tanzania",
+    contactSocialText: "TUNASUBIRI KUSIKIA KUTOKA KWAKO",
 
-formLabel: "TUMA MAULIZO",
-formTitle: "Tunawezaje kukusaidia?",
-formDescription: "Jaza taarifa hapa chini na timu yetu itafurahi kukusaidia.",
-formName: "Jina Kamili",
-formPhone: "Namba ya Simu",
-formEmail: "Barua Pepe",
-formSubject: "Unavutiwa na huduma gani?",
-formMessage: "Ujumbe Wako",
-formSelectOption: "Chagua huduma",
-formOption1: "Viwanja vya Makazi",
-formOption2: "Viwanja vya Biashara",
-formOption3: "Upimaji wa Ardhi",
-formOption4: "Uwekezaji wa Ardhi",
-formOption5: "Huduma Nyingine",
-formSubmit: "Tuma Maulizo kupitia WhatsApp",
-formNote: "Ujumbe wako utaandaliwa na kufunguliwa kupitia WhatsApp.",
+    formLabel: "TUMA MAULIZO",
+    formTitle: "Tunawezaje kukusaidia?",
+    formDescription: "Jaza taarifa hapa chini na timu yetu itafurahi kukusaidia.",
+    formName: "Jina Kamili",
+    formPhone: "Namba ya Simu",
+    formEmail: "Barua Pepe",
+    formSubject: "Unavutiwa na huduma gani?",
+    formMessage: "Ujumbe Wako",
+    formSelectOption: "Chagua huduma",
+    formOption1: "Viwanja vya Makazi",
+    formOption2: "Viwanja vya Biashara",
+    formOption3: "Upimaji wa Ardhi",
+    formOption4: "Uwekezaji wa Ardhi",
+    formOption5: "Huduma Nyingine",
+    formSubmit: "Tuma Maulizo kupitia WhatsApp",
+    formNote: "Ujumbe wako utaandaliwa na kufunguliwa kupitia WhatsApp.",
 
-formNamePlaceholder: "Jina lako kamili",
-formPhonePlaceholder: "+255...",
-formEmailPlaceholder: "barua@mfano.com",
-formMessagePlaceholder: "Tuambie zaidi kuhusu unachohitaji...",
+    formNamePlaceholder: "Jina lako kamili",
+    formPhonePlaceholder: "+255...",
+    formEmailPlaceholder: "barua@mfano.com",
+    formMessagePlaceholder: "Tuambie zaidi kuhusu unachohitaji...",
 
-contactBottomLabel: "FURSA YAKO INAYOFUATA",
-contactBottomTitle: "Mazungumzo sahihi<br><em>yanaweza kufungua fursa mpya.</em>",
-contactBottomButton: "Zungumza na timu yetu ↗"
+    contactBottomLabel: "FURSA YAKO INAYOFUATA",
+    contactBottomTitle: "Mazungumzo sahihi<br><em>yanaweza kufungua fursa mpya.</em>",
+    contactBottomButton: "Zungumza na timu yetu ↗"
   }
 };
 
@@ -438,7 +422,6 @@ let currentLanguage = localStorage.getItem("kambeleLanguage") || "en";
 const languageToggle = document.getElementById("languageToggle");
 
 function setLanguage(language) {
-
   if (!translations[language]) {
     language = "en";
   }
@@ -447,18 +430,29 @@ function setLanguage(language) {
 
   document.documentElement.lang = language;
 
+  // Translate normal text and HTML content
   document.querySelectorAll("[data-i18n]").forEach(element => {
-
     const key = element.dataset.i18n;
 
     if (translations[language][key] !== undefined) {
       element.innerHTML = translations[language][key];
     }
-
   });
 
-  if (languageToggle) {
-    languageToggle.textContent = language === "en" ? "SW" : "EN";
+  // Translate form placeholders
+  document.querySelectorAll("[data-i18n-placeholder]").forEach(element => {
+    const key = element.dataset.i18nPlaceholder;
+
+    if (translations[language][key] !== undefined) {
+      element.placeholder = translations[language][key];
+    }
+  });
+
+  // Update language button
+  const toggle = document.getElementById("languageToggle");
+
+  if (toggle) {
+    toggle.textContent = language === "en" ? "SW" : "EN";
   }
 
   localStorage.setItem("kambeleLanguage", language);
@@ -468,15 +462,10 @@ function setLanguage(language) {
 // LANGUAGE BUTTON
 
 if (languageToggle) {
-
   languageToggle.addEventListener("click", () => {
-
     const nextLanguage = currentLanguage === "en" ? "sw" : "en";
-
     setLanguage(nextLanguage);
-
   });
-
 }
 
 
@@ -486,9 +475,7 @@ const menuToggle = document.querySelector(".menu-toggle");
 const nav = document.querySelector(".nav");
 
 if (menuToggle && nav) {
-
   menuToggle.addEventListener("click", () => {
-
     const isOpen = nav.classList.toggle("open");
 
     menuToggle.setAttribute("aria-expanded", isOpen);
@@ -497,21 +484,14 @@ if (menuToggle && nav) {
       "aria-label",
       isOpen ? "Close navigation" : "Open navigation"
     );
-
   });
 
   nav.querySelectorAll("a").forEach(link => {
-
     link.addEventListener("click", () => {
-
       nav.classList.remove("open");
-
       menuToggle.setAttribute("aria-expanded", "false");
-
     });
-
   });
-
 }
 
 
@@ -524,7 +504,41 @@ if (yearElement) {
 }
 
 
+// CONTACT FORM - WHATSAPP
+
+const contactForm = document.getElementById("contactForm");
+
+if (contactForm) {
+  contactForm.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const name = document.getElementById("contactName").value.trim();
+    const phone = document.getElementById("contactPhone").value.trim();
+    const email = document.getElementById("contactEmail").value.trim();
+    const subject = document.getElementById("contactSubject").value;
+    const message = document.getElementById("contactMessage").value.trim();
+
+    const whatsappMessage =
+`Hello Kambele Investment,
+
+Name: ${name}
+Phone: ${phone}
+Email: ${email || "Not provided"}
+Service: ${subject}
+
+Message:
+${message}`;
+
+    const whatsappURL =
+      "https://wa.me/255762875055?text=" + encodeURIComponent(whatsappMessage);
+
+    window.open(whatsappURL, "_blank");
+  });
+}
+
+
 // APPLY SAVED LANGUAGE
 
 setLanguage(currentLanguage);
+
 
