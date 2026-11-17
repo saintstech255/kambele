@@ -57,7 +57,34 @@ const translations = {
     enquiryHeading: "SEND AN ENQUIRY",
     enquiryCopy: "Have a question about land or surveying?",
     footerWhatsApp: "Message us on WhatsApp ↗",
-    copyright: "All rights reserved."
+    copyright: "All rights reserved.",
+
+    // PROJECTS PAGE
+
+    projectHeroLabel: "LAND • LOCATION • OPPORTUNITY",
+    projectHeroTitle: "Explore our<br><em>project locations.</em>",
+    projectHeroText: "Discover areas where Kambele Investment can help you explore residential and commercial land opportunities.",
+    projectHeroButton: "Explore locations ↓",
+
+    projectIntroKicker: "01 / OUR PROJECTS",
+    projectIntroTitle: "Every great investment<br><em>begins with a location.</em>",
+    projectIntroText: "Choosing land is an important decision. We help individuals and businesses explore land opportunities and make informed enquiries about locations that match their plans.",
+
+    projectLocationsKicker: "02 / WHERE TO EXPLORE",
+    projectLocationsLabel: "OUR LOCATIONS",
+    projectLocationsTitle: "Explore opportunities<br><em>across the region.</em>",
+    projectLocationsAside: "Contact our team for current information about available plots, sizes and prices.",
+
+    arushaRegion: "ARUSHA REGION",
+    kilimanjaroRegion: "KILIMANJARO REGION",
+    locationEnquire: "Enquire about this location ↗",
+
+    projectAvailabilityNote: "Note: Locations listed are areas of interest. Please contact Kambele Investment to confirm current project availability, exact plot locations, sizes and prices.",
+
+    projectCtaLabel: "YOUR NEXT STEP STARTS HERE",
+    projectCtaTitle: "Looking for the right<br><em>piece of land?</em>",
+    projectCtaText: "Tell us what you are looking for. Our team is ready to hear from you.",
+    projectCtaButton: "Talk to our team ↗"
   },
 
   sw: {
@@ -118,7 +145,34 @@ const translations = {
     enquiryHeading: "TUMA UJUMBE",
     enquiryCopy: "Una swali kuhusu ardhi au huduma za upimaji?",
     footerWhatsApp: "Tutumie ujumbe WhatsApp ↗",
-    copyright: "Haki zote zimehifadhiwa."
+    copyright: "Haki zote zimehifadhiwa.",
+
+    // UKURASA WA MIRADI
+
+    projectHeroLabel: "ARDHI • ENEO • FURSA",
+    projectHeroTitle: "Gundua maeneo ya<br><em>miradi yetu.</em>",
+    projectHeroText: "Gundua maeneo ambayo Kambele Investment inaweza kukusaidia kupata fursa za viwanja vya makazi na biashara.",
+    projectHeroButton: "Angalia maeneo ↓",
+
+    projectIntroKicker: "01 / MIRADI YETU",
+    projectIntroTitle: "Kila uwekezaji mkubwa<br><em>huanzia kwenye eneo sahihi.</em>",
+    projectIntroText: "Kuchagua ardhi ni uamuzi muhimu. Tunawasaidia watu binafsi na wafanyabiashara kuchunguza fursa za ardhi na kupata taarifa sahihi kuhusu maeneo yanayolingana na mipango yao.",
+
+    projectLocationsKicker: "02 / MAENEO YA KUCHUNGUZA",
+    projectLocationsLabel: "MAENEO YETU",
+    projectLocationsTitle: "Gundua fursa<br><em>katika maeneo mbalimbali.</em>",
+    projectLocationsAside: "Wasiliana na timu yetu kupata taarifa za sasa kuhusu viwanja vinavyopatikana, ukubwa na bei.",
+
+    arushaRegion: "MKOA WA ARUSHA",
+    kilimanjaroRegion: "MKOA WA KILIMANJARO",
+    locationEnquire: "Ulizia kuhusu eneo hili ↗",
+
+    projectAvailabilityNote: "Angalizo: Maeneo yaliyoorodheshwa ni maeneo ya kuangazia fursa. Tafadhali wasiliana na Kambele Investment kuthibitisha upatikanaji wa miradi, maeneo halisi ya viwanja, ukubwa na bei.",
+
+    projectCtaLabel: "HATUA YAKO INAYOFUATA INAANZIA HAPA",
+    projectCtaTitle: "Unatafuta kiwanja<br><em>kinachokufaa?</em>",
+    projectCtaText: "Tuambie unatafuta nini. Timu yetu iko tayari kukusikiliza.",
+    projectCtaButton: "Wasiliana na timu yetu ↗"
   }
 };
 
@@ -219,4 +273,3 @@ if (yearElement) {
 // APPLY SAVED LANGUAGE
 
 setLanguage(currentLanguage);
-
