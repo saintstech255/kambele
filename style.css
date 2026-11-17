@@ -1291,3 +1291,11 @@ footer {
   }
 
 }
+/* ABOUT CTA - WHITE TEXT */
+.about-cta,
+.about-cta h2,
+.about-cta h3,
+.about-cta p,
+.about-cta .gold-label {
+    color: #ffffff !important;
+}
