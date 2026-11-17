@@ -729,3 +729,220 @@ footer {
     align-items: flex-start;
   }
 }
+
+.projects-hero {
+  min-height: 520px;
+  padding: 100px 11%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: white;
+  background:
+    url("https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1800&q=85")
+    center/cover no-repeat;
+}
+
+.projects-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(10,10,9,.88), rgba(10,10,9,.25));
+}
+
+.projects-hero-content {
+  position: relative;
+  max-width: 650px;
+}
+
+.projects-hero h1 {
+  font: 600 clamp(45px, 6vw, 76px)/1.1 var(--serif);
+  margin: 20px 0;
+}
+
+.projects-hero h1 em,
+.projects-intro h2 em,
+.location-info h3 em,
+.projects-cta h2 em {
+  color: var(--gold);
+}
+
+.projects-hero-content>p:not(.gold-label) {
+  max-width: 520px;
+  color: #ddd8ce;
+  font-size: 14px;
+  line-height: 1.9;
+  margin-bottom: 28px;
+}
+
+.projects-intro {
+  background: #11110f;
+}
+
+.projects-intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10%;
+  align-items: center;
+}
+
+.projects-intro h2,
+.locations-section h2,
+.projects-cta h2 {
+  font: 500 clamp(32px, 4vw, 48px)/1.2 var(--serif);
+}
+
+.projects-intro-grid>p {
+  color: #aaa69d;
+  font-size: 13px;
+  line-height: 2;
+}
+
+.locations-section {
+  background: #e9e5dc;
+  color: #191815;
+}
+
+.location-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  margin-top: 45px;
+}
+
+.location-card {
+  background: #f4f1eb;
+  border: 1px solid rgba(0,0,0,.08);
+  transition: .3s;
+}
+
+.location-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 15px 35px rgba(0,0,0,.1);
+}
+
+.location-photo {
+  height: 230px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.location-photo:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, rgba(0,0,0,.45), transparent);
+}
+
+.location-photo span {
+  position: absolute;
+  z-index: 1;
+  bottom: 15px;
+  left: 18px;
+  color: white;
+  font: 24px var(--serif);
+}
+
+.location-kisongo {
+  background-image: url("https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80");
+}
+
+.location-majiyachai {
+  background-image: url("https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=800&q=80");
+}
+
+.location-kikatiti {
+  background-image: url("https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80");
+}
+
+.location-muriet {
+  background-image: url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80");
+}
+
+.location-bomangombe {
+  background-image: url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80");
+}
+
+.location-moshi {
+  background-image: url("https://images.unsplash.com/photo-1464278533981-50106e6176b1?auto=format&fit=crop&w=800&q=80");
+}
+
+.location-info {
+  padding: 24px;
+}
+
+.location-info>p {
+  color: #9a773c;
+  font-size: 9px;
+  letter-spacing: .15em;
+}
+
+.location-info h3 {
+  font: 24px var(--serif);
+  margin: 10px 0 20px;
+}
+
+.location-info a {
+  font-size: 11px;
+  color: #947039;
+  border-bottom: 1px solid #c7ae80;
+  padding-bottom: 5px;
+}
+
+.availability-note {
+  font-size: 11px;
+  line-height: 1.8;
+  color: #716b60;
+  margin-top: 30px;
+}
+
+.projects-cta {
+  padding: 85px 7%;
+  text-align: center;
+  background: var(--gold);
+  color: #19150d;
+}
+
+.projects-cta h2 {
+  margin: 18px 0;
+}
+
+.projects-cta h2 em {
+  color: #fff5df;
+}
+
+.projects-cta>p:not(.gold-label) {
+  font-size: 13px;
+  margin: 0 auto 25px;
+  max-width: 500px;
+  line-height: 1.8;
+}
+
+.projects-cta .gold-label {
+  color: #5b431b;
+}
+
+@media(max-width: 900px) {
+  .location-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media(max-width: 720px) {
+  .projects-hero {
+    min-height: 480px;
+    padding: 80px 7%;
+  }
+
+  .projects-intro-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .location-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .location-photo {
+    height: 250px;
+  }
+}
