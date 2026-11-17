@@ -118,6 +118,56 @@ aboutCtaButton: "Talk to our team ↗",
     projectCtaTitle: "Looking for the right<br><em>piece of land?</em>",
     projectCtaText: "Tell us what you are looking for. Our team is ready to hear from you.",
     projectCtaButton: "Talk to our team ↗"
+
+    
+    // SERVICES PAGE
+    servicesHeroLabel: "WHAT WE DO",
+    servicesHeroTitle: "Services Built Around Your Land Investment Goals",
+    servicesHeroText: "From finding the right land to professional surveying, we help you make informed property decisions.",
+    servicesHeroButton: "Explore Our Services",
+
+    servicesIntroLabel: "OUR EXPERTISE",
+    servicesIntroTitle: "Practical Solutions for Land and Property",
+    servicesIntroText: "Kambele Investment provides land and property-related services designed to help individuals, businesses and investors explore opportunities with confidence.",
+
+    service01Label: "RESIDENTIAL PROPERTY",
+    service01Title: "Residential Plots",
+    service01Text: "We help clients explore residential land opportunities suitable for building homes and planning for the future.",
+
+    service02Label: "BUSINESS OPPORTUNITIES",
+    service02Title: "Commercial Plots",
+    service02Text: "We assist clients in exploring land opportunities suitable for commercial activities and business development.",
+
+    service03Label: "PROFESSIONAL MEASUREMENT",
+    service03Title: "Land Surveying",
+    service03Text: "Land surveying and plot measurement services to support accurate land planning and property-related decisions.",
+
+    service04Label: "PROPERTY OPPORTUNITIES",
+    service04Title: "Land Investment",
+    service04Text: "We help individuals and businesses explore land investment opportunities with a focus on informed decision-making.",
+
+    service05Label: "ADDITIONAL SOLUTIONS",
+    service05Title: "Other Services",
+    service05Text: "We also assist clients with other land and property-related enquiries based on their individual needs.",
+
+    serviceLearnMore: "Make an Enquiry →",
+
+    servicesWhyLabel: "THE KAMBELE APPROACH",
+    servicesWhyTitle: "A Better Way to Explore Land Opportunities",
+    servicesWhyText: "We believe that every land decision deserves attention, clear communication and careful consideration.",
+
+    benefit01Title: "Client Focus",
+    benefit01Text: "We take time to understand your needs and objectives.",
+    benefit02Title: "Clear Communication",
+    benefit02Text: "We value open communication throughout the process.",
+    benefit03Title: "Practical Guidance",
+    benefit03Text: "We help clients understand available options.",
+
+    servicesCtaLabel: "LET'S START A CONVERSATION",
+    servicesCtaTitle: "Looking for the Right Land Opportunity?",
+    servicesCtaText: "Talk to our team today and tell us what you are looking for.",
+    servicesCtaButton: "Contact Our Team",
+
   },
 
   sw: {
@@ -239,6 +289,55 @@ aboutCtaButton: "Wasiliana na timu yetu ↗",
     projectCtaTitle: "Unatafuta kiwanja<br><em>kinachokufaa?</em>",
     projectCtaText: "Tuambie unatafuta nini. Timu yetu iko tayari kukusikiliza.",
     projectCtaButton: "Wasiliana na timu yetu ↗"
+
+    // SERVICES PAGE
+    servicesHeroLabel: "HUDUMA ZETU",
+    servicesHeroTitle: "Huduma Zinazokidhi Malengo Yako ya Uwekezaji wa Ardhi",
+    servicesHeroText: "Kuanzia kupata eneo sahihi hadi huduma za kitaalamu za upimaji, tunakusaidia kufanya maamuzi sahihi kuhusu ardhi na mali.",
+    servicesHeroButton: "Tazama Huduma Zetu",
+
+    servicesIntroLabel: "UWEZO WETU",
+    servicesIntroTitle: "Suluhisho kwa Masuala ya Ardhi na Mali",
+    servicesIntroText: "Kambele Investment inatoa huduma zinazohusiana na ardhi na mali, zinazowasaidia watu binafsi, biashara na wawekezaji kutafuta fursa kwa uhakika.",
+
+    service01Label: "ARDHI YA MAKAZI",
+    service01Title: "Viwanja vya Makazi",
+    service01Text: "Tunawasaidia wateja kutafuta na kuchunguza fursa za viwanja vya makazi kwa ajili ya kujenga nyumba na kupanga maisha ya baadaye.",
+
+    service02Label: "FURSA ZA BIASHARA",
+    service02Title: "Viwanja vya Biashara",
+    service02Text: "Tunawasaidia wateja kutafuta fursa za viwanja vinavyofaa kwa shughuli za kibiashara na maendeleo ya biashara.",
+
+    service03Label: "UPIMAJI WA KITAALAMU",
+    service03Title: "Upimaji wa Ardhi",
+    service03Text: "Tunatoa huduma za upimaji wa ardhi na viwanja ili kusaidia mipango sahihi ya matumizi ya ardhi na maamuzi yanayohusu mali.",
+
+    service04Label: "FURSA ZA UWEKEZAJI",
+    service04Title: "Uwekezaji wa Ardhi",
+    service04Text: "Tunawasaidia watu binafsi na biashara kuchunguza fursa za uwekezaji wa ardhi kwa kuzingatia kufanya maamuzi yenye taarifa sahihi.",
+
+    service05Label: "HUDUMA NYINGINE",
+    service05Title: "Huduma Nyingine",
+    service05Text: "Pia tunasaidia wateja katika masuala mengine yanayohusiana na ardhi na mali kulingana na mahitaji yao.",
+
+    serviceLearnMore: "Ulizia Huduma Hii →",
+
+    servicesWhyLabel: "NAMNA KAMBELE INAVYOFANYA KAZI",
+    servicesWhyTitle: "Njia Bora ya Kutafuta Fursa za Ardhi",
+    servicesWhyText: "Tunaamini kuwa kila uamuzi kuhusu ardhi unahitaji umakini, mawasiliano mazuri na tathmini ya kina.",
+
+    benefit01Title: "Kuweka Mteja Mbele",
+    benefit01Text: "Tunatenga muda kuelewa mahitaji na malengo yako.",
+    benefit02Title: "Mawasiliano Wazi",
+    benefit02Text: "Tunathamini mawasiliano ya wazi katika kila hatua ya huduma.",
+    benefit03Title: "Ushauri wa Vitendo",
+    benefit03Text: "Tunawasaidia wateja kuelewa chaguo na fursa zilizopo.",
+
+    servicesCtaLabel: "TUANZE MAZUNGUMZO",
+    servicesCtaTitle: "Unatafuta Fursa Sahihi ya Ardhi?",
+    servicesCtaText: "Wasiliana na timu yetu leo na utueleze unachokitafuta.",
+    servicesCtaButton: "Wasiliana na Timu Yetu",
+
   }
 };
 
