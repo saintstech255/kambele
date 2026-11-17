@@ -1299,3 +1299,272 @@ footer {
 .about-cta .gold-label {
     color: #ffffff !important;
 }
+
+/* =================================
+   KAMBELE SERVICES PAGE
+================================= */
+
+.services-hero {
+  background-image: url("images/services-hero.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.services-intro {
+  padding: 90px 20px 55px;
+  text-align: center;
+}
+
+.services-intro .container {
+  max-width: 850px;
+  margin: auto;
+}
+
+.services-intro h2 {
+  font-size: clamp(30px, 4vw, 46px);
+  margin: 15px 0;
+}
+
+.services-intro p:not(.gold-label) {
+  line-height: 1.8;
+  color: #aaa;
+}
+
+/* SERVICES GRID */
+
+.services-list {
+  padding: 40px 20px 100px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.service-card {
+  background: #111;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  overflow: hidden;
+  transition: transform .4s ease, border-color .4s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  border-color: #c9a64a;
+}
+
+.service-image {
+  height: 230px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service-image-1 {
+  background-image: url("images/residential-plots.jpg");
+}
+
+.service-image-2 {
+  background-image: url("images/commercial-plots.jpg");
+}
+
+.service-image-3 {
+  background-image: url("images/land-surveying.jpg");
+}
+
+.service-image-4 {
+  background-image: url("images/land-investment.jpg");
+}
+
+.service-image-5 {
+  background-image: url("images/other-services.jpg");
+}
+
+.service-number {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  background: #c9a64a;
+  color: #111;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 9px 14px;
+}
+
+.service-content {
+  padding: 28px;
+}
+
+.service-content .gold-label {
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+.service-content h3 {
+  color: #fff;
+  font-size: 23px;
+  margin: 12px 0;
+}
+
+.service-content p {
+  color: #aaa;
+  font-size: 14px;
+  line-height: 1.8;
+  min-height: 100px;
+}
+
+.service-content a {
+  display: inline-block;
+  margin-top: 18px;
+  color: #c9a64a;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color .3s ease;
+}
+
+.service-content a:hover {
+  color: #fff;
+}
+
+/* WHY CHOOSE US */
+
+.services-why {
+  background: #0c0c0c;
+  padding: 100px 20px;
+  border-top: 1px solid rgba(212, 175, 55, .15);
+  border-bottom: 1px solid rgba(212, 175, 55, .15);
+}
+
+.services-why-heading {
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto 55px;
+}
+
+.services-why-heading h2 {
+  color: #fff;
+  font-size: clamp(28px, 4vw, 42px);
+  margin: 15px 0;
+}
+
+.services-why-heading p:not(.gold-label) {
+  color: #aaa;
+  line-height: 1.8;
+}
+
+.services-benefits {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.benefit-item {
+  padding: 35px;
+  border: 1px solid rgba(212, 175, 55, .2);
+  background: #111;
+  transition: .3s ease;
+}
+
+.benefit-item:hover {
+  border-color: #c9a64a;
+  transform: translateY(-5px);
+}
+
+.benefit-item span {
+  color: #c9a64a;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.benefit-item h3 {
+  color: #fff;
+  margin: 20px 0 12px;
+}
+
+.benefit-item p {
+  color: #aaa;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+/* SERVICES CTA */
+
+.services-cta {
+  background-image: url("images/services-cta.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  padding: 100px 20px;
+}
+
+.services-cta-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  margin: auto;
+}
+
+.services-cta h2,
+.services-cta p {
+  color: #fff;
+}
+
+.services-cta h2 {
+  font-size: clamp(30px, 4vw, 46px);
+  margin: 18px 0;
+}
+
+.services-cta p:not(.gold-label) {
+  line-height: 1.8;
+  margin-bottom: 28px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1000px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .services-benefits {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 720px) {
+  .services-grid,
+  .services-benefits {
+    grid-template-columns: 1fr;
+  }
+
+  .services-intro {
+    padding: 65px 20px 35px;
+  }
+
+  .services-list {
+    padding: 25px 18px 70px;
+  }
+
+  .service-image {
+    height: 220px;
+  }
+
+  .service-content p {
+    min-height: auto;
+  }
+
+  .services-why {
+    padding: 70px 20px;
+  }
+
+  .services-cta {
+    padding: 75px 20px;
+  }
+}
